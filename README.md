@@ -14,7 +14,7 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
-* [ ] Example item
+* [ ] 096: question about `nor here` vs `nor there` - review in TIA scans
 
 ### Project manager notes ###
 

@@ -15,13 +15,13 @@ cd ~/dp/util
 . venv/bin/activate
 ./make_project.py
 ```
-* [ ] Read the [project comments](https://www.pgdp.net/c/project.php?id=projectID623ad113028e7#project-comments)
-* [ ] Subscribe to the [forum topic](https://www.pgdp.net/phpBB3/viewtopic.php?t=76504) and read all posts
-* [ ] Open `catholichistory-utf8.txt` in Guiguts
-* [ ] `File → Project → Configure Page Labels...`. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
+* [x] Read the [project comments](https://www.pgdp.net/c/project.php?id=projectID623ad113028e7#project-comments)
+* [x] Subscribe to the [forum topic](https://www.pgdp.net/phpBB3/viewtopic.php?t=76504) and read all posts
+* [x] Open `catholichistory-utf8.txt` in Guiguts
+* [x] `File → Project → Configure Page Labels...`. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
 
 ### Sequential Inspection of Text
-* [ ] Turn on `Auto Img`
+* [x] Turn on `Auto Img`
 * [ ] Check for chapter/section spacing (2,4). Regex: `(^$\n^$\n^$\n^$\n|^$\n^$\n)` and use "Highlight All".
 
 Check for:
