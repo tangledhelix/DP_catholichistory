@@ -16,7 +16,7 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 * [ ] review book structure (see notes below) for any h3 needed
 * [ ] 027: complex table
-* [ ] 070: footnote using Greek transliteration; change to utf8
+* [x] 070: footnote using Greek transliteration; change to utf8
 * [ ] 096: question about `nor here` vs `nor there` - review in TIA scans
 
 ### Project manager notes ###
@@ -91,7 +91,7 @@ Book structure: Seems to be 4 major divisions that I'll treat as chapters. Wheth
         (a) (b)
 ```
 
-[Posted](https://www.pgdp.net/phpBB3/viewtopic.php?p=1387095#p1387095) in forum about Greek word in footnote on page 70.
+[Posted](https://www.pgdp.net/phpBB3/viewtopic.php?p=1387095#p1387095) in forum about Greek word in footnote on page 70. Confirmed with the experts.
 
 ### Illustrations ###
 

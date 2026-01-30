@@ -2,13 +2,13 @@
 
 
 
-/*
+/X
 THE CALVERT SERIES
 <sc>Hilaire Belloc</sc>, <i>General Editor</i>
 
 
 THE CATHOLIC CHURCH AND HISTORY
-*/
+X/
 
 
 
@@ -18,18 +18,18 @@ THE CALVERT SERIES
 <sc>Hilaire Belloc</sc>, <i>General Editor</i>
 
 
-/*
+/X
 <i>Belloc</i>: <sc>The Catholic Church and History</sc>
 <i>Chesterton</i>: <sc>The Catholic Church and Conversion</sc>
 <i>McNabb</i>: <sc>The Catholic Church and Philosophy</sc>
 <i>Ward</i>: <sc>The Catholic Church and the Appeal to Reason</sc>
 <i>Windle</i>: <sc>The Catholic Church and Its Reactions With Science</sc>
-*/
+X/
 
 
 
 
-/*
+/X
 THE CATHOLIC CHURCH
 AND HISTORY
 
@@ -40,7 +40,7 @@ HILAIRE BELLOC
 THE MACMILLAN COMPANY
 1927
 <i>All Rights Reserved</i>
-*/
+X/
 
 
 
@@ -62,7 +62,7 @@ Imprimatur
 New York, September 16, 1926.
 
 
-/*
+/X
 Copyright, 1926,
 <sc>By</sc> THE MACMILLAN COMPANY.
 
@@ -74,7 +74,7 @@ September, 1927.
 
 <i>Printed in the United States of America by</i>
 THE FERRIS PRINTING COMPANY, NEW YORK.
-*/
+X/
 
 
 
