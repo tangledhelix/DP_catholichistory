@@ -98,12 +98,12 @@ Instructions for `/* */` and `/# #/` blocks:
 * [x] Depending on book, move footnotes to end of chapters, or end of book (use Footnote Fixup)
 
 ### Fixup Illustration locations
-* [ ] Use `Tools → Illustration Fixup` to move illos between paragraphs.
+* [x] Use `Tools → Illustration Fixup` to move illos between paragraphs.
   * Note the "Preserve Illo's Page Number" checkbox - using this will optimize for the page number of the illo and may dislocate the page numbering of text. Probably better to not use it for midparagraph images?
   * Choose an illo from the list and use the Move Up/Down buttons to relocate it.
 
 ### Remove Visible Page Breaks
-* [ ] Run `Tools → Page Separator Fixup` to remove visible page separators
+* [x] Run `Tools → Page Separator Fixup` to remove visible page separators
 
 ### Format Front Matter
 * [ ] Format the title page, preserving as much of the original material as possible. Protect in `/X...X/` (no rewrap, no indent) or `/F...F/` (the same, except that it will be centered in the html version).
