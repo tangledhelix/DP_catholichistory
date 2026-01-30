@@ -50,12 +50,12 @@ Check for:
 * Note any illustrations in a list in `README.md` for later handling
 
 ### Basic Fixup
-* [ ] If project has Greek charset enabled, regex search `\p{Greek}` to look for Greek characters where they shouldn't be.
-* [ ] Use `Tools → Basic Fixup`.
-* [ ] Remove any remaining `[Blank Page]` lines
+* [x] If project has Greek charset enabled, regex search `\p{Greek}` to look for Greek characters where they shouldn't be.
+* [x] Use `Tools → Basic Fixup`.
+* [x] Remove any remaining `[Blank Page]` lines
 
 ### Errata
-* [ ] If original book had errata, apply it and note in TN
+* [x] If original book had errata, apply it and note in TN
 
 ### Fix Block Markups and Proofer Notes
 Instructions for `/* */` and `/# #/` blocks:
