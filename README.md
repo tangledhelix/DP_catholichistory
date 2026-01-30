@@ -14,6 +14,7 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
+* [ ] review book structure (see notes below) for any h3 needed
 * [ ] 027: complex table
 * [ ] 070: footnote using Greek transliteration; change to utf8
 * [ ] 096: question about `nor here` vs `nor there` - review in TIA scans
@@ -101,6 +102,12 @@ None.
 ### Spellcheck ###
 
 ### Transcriber's notes ###
+
+p. 37: changed “phenomenom” to “phenomenon” (That such a phenomenon)
+
+p. 71: changed “eraliest” to “earliest” (the earliest origins of the Church)
+
+p. 96: changed “here” to “there” (neither here nor there)
 
 ### HTML file review ###
 The iPhone/iPad simulators can't use `file://` URLs. Start a local web server with `python3 -m http.server` in the project directory and going to `localhost:8000` in Safari on the device. 
