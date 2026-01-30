@@ -14,6 +14,8 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
+* [ ] 027: complex table
+* [ ] 070: footnote using Greek transliteration; change to utf8
 * [ ] 096: question about `nor here` vs `nor there` - review in TIA scans
 
 ### Project manager notes ###
@@ -65,7 +67,32 @@ follow the normal <a href="https://www.pgdp.net/wiki/DP_Official_Documentation:P
 
 ### General notes ###
 
+Book structure: Seems to be 4 major divisions that I'll treat as chapters. Whether to create h3 sections is something to think about for later.
+
+```
+005 Preface
+007 Editor's Preface
+013 Book begins with I
+
+013 I
+    1. 2. 3.
+016 II
+    (1) (2) (3)
+021 III
+    (I)
+        (a) (b) (c)
+    (II)
+        (a) (b)
+026 IV
+    (I)
+        (a) (b) (c)
+    (II)
+        (a) (b)
+```
+
 ### Illustrations ###
+
+None.
 
 ### Proofer's notes ###
 

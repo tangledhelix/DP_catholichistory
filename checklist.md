@@ -22,7 +22,7 @@ cd ~/dp/util
 
 ### Sequential Inspection of Text
 * [x] Turn on `Auto Img`
-* [ ] Check for chapter/section spacing (2,4). Regex: `(^$\n^$\n^$\n^$\n|^$\n^$\n)` and use "Highlight All".
+* [x] Check for chapter/section spacing (2,4). Regex: `(^$\n^$\n^$\n^$\n|^$\n^$\n)` and use "Highlight All".
 
 Check for:
 
