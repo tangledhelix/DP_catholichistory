@@ -91,6 +91,8 @@ Book structure: Seems to be 4 major divisions that I'll treat as chapters. Wheth
         (a) (b)
 ```
 
+[Posted](https://www.pgdp.net/phpBB3/viewtopic.php?p=1387095#p1387095) in forum about Greek word in footnote on page 70.
+
 ### Illustrations ###
 
 None.

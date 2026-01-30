@@ -72,16 +72,16 @@ Instructions for `/* */` and `/# #/` blocks:
   * Apply specific [margin values](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Block_Quote_Indent_and_Margins) if desired
 * [x] Find and fix any single-asterisk Proofer Comments: Search regex `\[\*[^*]`
 * [x] `Search → Find Proofer Comments`. Resolve all proofer's notes.
-* [ ] `Tools → Unmatched → Block Markup`
-* [ ] `Tools → Unmatched → DP Markup`.
-* [ ] Search `(</i>)([!?;:])` & replace `$2$1` to find punct that should move inside quotes
-* [ ] Use `Tools → Unmatched → Brackets` to check each type of bracket and markup.
+* [x] `Tools → Unmatched → Block Markup`
+* [x] `Tools → Unmatched → DP Markup`.
+* [x] Search `(</i>)([!?;:])` & replace `\2\1` to find punct that should move inside quotes
+* [x] Use `Tools → Unmatched → Brackets` to check each type of bracket and markup.
   * Do not omit the lowly parenthesis, often mis-scanned as curly-brace.
-* [ ] Look for malformed thought-breaks (5 stars). Regex: `\*\s*\*\s*\*\s*\*\s*\*`
+* [x] Look for malformed thought-breaks (5 stars). Regex: `\*\s*\*\s*\*\s*\*\s*\*`
 
 ### Transliterations
-* [ ] Check for non-Latin script tags. `\[(Greek|Hebrew|Arabic|Cyrillic)`
-* [ ] Handle each case as appropriate.
+* [x] Check for non-Latin script tags. `\[(Greek|Hebrew|Arabic|Cyrillic)`
+* [x] Handle each case as appropriate.
 
 ### Fix Footnotes
 * [ ] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
