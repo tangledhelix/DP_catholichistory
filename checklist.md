@@ -84,18 +84,18 @@ Instructions for `/* */` and `/# #/` blocks:
 * [x] Handle each case as appropriate.
 
 ### Fix Footnotes
-* [ ] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
+* [x] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
   * `Next / Prev FN` to navigate
   * Look for `*` and use `Join Selected FN to Previous` to join them
   * THERE SHOULD BE NO SUSPECTS AT TOP OF WINDOW
     * Exception: sometimes a footnote is really long
     * Exception: multiple anchors per footnote can confuse it?
-* [ ] Move footnotes between paragraphs
+* [x] Move footnotes between paragraphs
   * `Footnote Fixup`, `Re-run`
   * `All to Number`, `Reindex`
   * `Re-run`, `Move FNs to Paragraphs`
-* [ ] Search for blocks: regex (no case match) `^/[#*$PCRFLXI]` and move footnotes outside of blocks as appropriate
-* [ ] Depending on book, move footnotes to end of chapters, or end of book (use Footnote Fixup)
+* [x] Search for blocks: regex (no case match) `^/[#*$PCRFLXI]` and move footnotes outside of blocks as appropriate
+* [x] Depending on book, move footnotes to end of chapters, or end of book (use Footnote Fixup)
 
 ### Fixup Illustration locations
 * [ ] Use `Tools → Illustration Fixup` to move illos between paragraphs.
