@@ -109,6 +109,8 @@ p. 37: changed “phenomenom” to “phenomenon” (That such a phenomenon)
 
 p. 71: changed “eraliest” to “earliest” (the earliest origins of the Church)
 
+p. 96: changed “cay” to “may” (what we may say with regard to)
+
 p. 96: changed “here” to “there” (neither here nor there)
 
 ### HTML file review ###
