@@ -168,7 +168,7 @@ Instructions for `/* */` and `/# #/` blocks:
 
 ### Unicode EN dashes
 For now, process only EN dash. The EM dash and long dash (2x EM) are left for after the text/html split.
-* [ ] [En dash](https://www.pgdp.net/wiki/En-dash):
+* [x] [En dash](https://www.pgdp.net/wiki/En-dash):
   * `Tools → Regex Library` and load the dashes.json file
   * Ignore the first regex (em-dash) and do these:
     * Range of numbers `12–15` (uses EN DASH)
