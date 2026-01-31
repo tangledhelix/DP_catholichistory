@@ -4,7 +4,7 @@
 
 /X
 THE CALVERT SERIES
-<sc>Hilaire Belloc</sc>, _General Editor_
+HILAIRE BELLOC, _General Editor_
 
 
 THE CATHOLIC CHURCH AND HISTORY
@@ -15,15 +15,15 @@ X/
 
 THE CALVERT SERIES
 
-<sc>Hilaire Belloc</sc>, _General Editor_
+HILAIRE BELLOC, _General Editor_
 
 
 /X
-_Belloc_: <sc>The Catholic Church and History</sc>
-_Chesterton_: <sc>The Catholic Church and Conversion</sc>
-_McNabb_: <sc>The Catholic Church and Philosophy</sc>
-_Ward_: <sc>The Catholic Church and the Appeal to Reason</sc>
-_Windle_: <sc>The Catholic Church and Its Reactions With Science</sc>
+_Belloc_: THE CATHOLIC CHURCH AND HISTORY
+_Chesterton_: THE CATHOLIC CHURCH AND CONVERSION
+_McNabb_: THE CATHOLIC CHURCH AND PHILOSOPHY
+_Ward_: THE CATHOLIC CHURCH AND THE APPEAL TO REASON
+_Windle_: THE CATHOLIC CHURCH AND ITS REACTIONS WITH SCIENCE
 X/
 
 
@@ -48,14 +48,14 @@ X/
 Nihil Obstat
 
 /*
-<sc>Arthur J. Scanlan</sc>, S. T. D.
+ARTHUR J. SCANLAN, S. T. D.
 Censor Librorum.
 */
 
 Imprimatur
 
 /*
-<sc>Patrick Cardinal Hayes</sc>
+PATRICK CARDINAL HAYES
 ✠ Archbishop, New York.
 */
 
@@ -64,7 +64,7 @@ New York, September 16, 1926.
 
 /X
 Copyright, 1926,
-<sc>By</sc> THE MACMILLAN COMPANY.
+BY THE MACMILLAN COMPANY.
 
 Set up and electrotyped.
 Published November, 1926.
@@ -644,7 +644,7 @@ greatest.
 IV
 
 
-(I) <sc>The Minor or Moral Argument</sc>
+(I) THE MINOR OR MORAL ARGUMENT
 
 (a) _That the Church has been historically
 wrong upon a number of facts: a Divine Authority
@@ -1716,7 +1716,7 @@ of the Catholic Church to have proceeded from
 man.
 
 
-II. <sc>The Major or Intellectual Argument</sc>
+II. THE MAJOR OR INTELLECTUAL ARGUMENT
 
 The last and much the most important division
 of the arguments based upon History against the

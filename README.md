@@ -105,6 +105,8 @@ None.
 
 ### Transcriber's notes ###
 
+TXT: italics, smallcaps
+
 p. 37: changed “phenomenom” to “phenomenon” (That such a phenomenon)
 
 p. 48: deleted duplicate word “the” (condemned by authority of the Catholic Church)
