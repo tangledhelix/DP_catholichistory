@@ -107,6 +107,8 @@ None.
 
 p. 37: changed “phenomenom” to “phenomenon” (That such a phenomenon)
 
+p. 48: deleted duplicate word “the” (condemned by authority of the Catholic Church)
+
 p. 71: changed “eraliest” to “earliest” (the earliest origins of the Church)
 
 p. 96: changed “cay” to “may” (what we may say with regard to)
