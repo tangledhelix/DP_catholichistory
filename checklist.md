@@ -177,12 +177,12 @@ For now, process only EN dash. The EM dash and long dash (2x EM) are left for af
 * Any single dashes not covered above are treated as hyphens.
 
 ### Last pre-split check
-* [ ] Look at the revisit list for anything to handle before text/html split
-* [ ] Check for unexpected `*`: Search → Find Asterisks w/o Slash
+* [x] Look at the revisit list for anything to handle before text/html split
+* [x] Check for unexpected `*`: Search → Find Asterisks w/o Slash
 
 ### Save Edited Markup
-* [ ] Save any unsaved changes
-* [ ] Use `File → Save a Copy As` to make `catholichistory.html`
+* [x] Save any unsaved changes
+* [x] Use `File → Save a Copy As` to make `catholichistory.html`
   * This will be the starting file for the HTML version. You can also use it  as fallback in case you mess up and need to start the following steps over.
 
 ## Prepare the Plain Text Version

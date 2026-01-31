@@ -1,0 +1,669 @@
+{
+  "md5checksum": "42586e7628d63127c9eca47513e9dc10",
+  "insertpos": "2365.18",
+  "insertpospeer": "2893.71",
+  "pagedetails": {
+    "001": {
+      "index": "1.0",
+      "style": "Arabic",
+      "number": "1",
+      "label": "Pg 1"
+    },
+    "002": {
+      "index": "12.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 2"
+    },
+    "003": {
+      "index": "28.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 3"
+    },
+    "004": {
+      "index": "44.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 4"
+    },
+    "005": {
+      "index": "78.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 5"
+    },
+    "006": {
+      "index": "107.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 6"
+    },
+    "007": {
+      "index": "126.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 7"
+    },
+    "008": {
+      "index": "159.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 8"
+    },
+    "009": {
+      "index": "186.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 9"
+    },
+    "010": {
+      "index": "213.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 10"
+    },
+    "011": {
+      "index": "240.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 11"
+    },
+    "012": {
+      "index": "245.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 12"
+    },
+    "013": {
+      "index": "245.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 13"
+    },
+    "014": {
+      "index": "279.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 14"
+    },
+    "015": {
+      "index": "306.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 15"
+    },
+    "016": {
+      "index": "333.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 16"
+    },
+    "017": {
+      "index": "365.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 17"
+    },
+    "018": {
+      "index": "393.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 18"
+    },
+    "019": {
+      "index": "421.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 19"
+    },
+    "020": {
+      "index": "448.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 20"
+    },
+    "021": {
+      "index": "473.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 21"
+    },
+    "022": {
+      "index": "506.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 22"
+    },
+    "023": {
+      "index": "534.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 23"
+    },
+    "024": {
+      "index": "563.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 24"
+    },
+    "025": {
+      "index": "590.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 25"
+    },
+    "026": {
+      "index": "618.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 26"
+    },
+    "027": {
+      "index": "652.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 27"
+    },
+    "028": {
+      "index": "681.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 28"
+    },
+    "029": {
+      "index": "711.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 29"
+    },
+    "030": {
+      "index": "736.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 30"
+    },
+    "031": {
+      "index": "763.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 31"
+    },
+    "032": {
+      "index": "790.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 32"
+    },
+    "033": {
+      "index": "817.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 33"
+    },
+    "034": {
+      "index": "843.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 34"
+    },
+    "035": {
+      "index": "871.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 35"
+    },
+    "036": {
+      "index": "899.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 36"
+    },
+    "037": {
+      "index": "926.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 37"
+    },
+    "038": {
+      "index": "952.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 38"
+    },
+    "039": {
+      "index": "982.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 39"
+    },
+    "040": {
+      "index": "1009.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 40"
+    },
+    "041": {
+      "index": "1037.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 41"
+    },
+    "042": {
+      "index": "1063.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 42"
+    },
+    "043": {
+      "index": "1090.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 43"
+    },
+    "044": {
+      "index": "1118.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 44"
+    },
+    "045": {
+      "index": "1142.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 45"
+    },
+    "046": {
+      "index": "1169.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 46"
+    },
+    "047": {
+      "index": "1192.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 47"
+    },
+    "048": {
+      "index": "1220.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 48"
+    },
+    "049": {
+      "index": "1247.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 49"
+    },
+    "050": {
+      "index": "1268.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 50"
+    },
+    "051": {
+      "index": "1292.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 51"
+    },
+    "052": {
+      "index": "1320.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 52"
+    },
+    "053": {
+      "index": "1349.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 53"
+    },
+    "054": {
+      "index": "1375.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 54"
+    },
+    "055": {
+      "index": "1403.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 55"
+    },
+    "056": {
+      "index": "1433.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 56"
+    },
+    "057": {
+      "index": "1458.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 57"
+    },
+    "058": {
+      "index": "1485.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 58"
+    },
+    "059": {
+      "index": "1513.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 59"
+    },
+    "060": {
+      "index": "1539.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 60"
+    },
+    "061": {
+      "index": "1568.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 61"
+    },
+    "062": {
+      "index": "1595.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 62"
+    },
+    "063": {
+      "index": "1622.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 63"
+    },
+    "064": {
+      "index": "1649.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 64"
+    },
+    "065": {
+      "index": "1675.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 65"
+    },
+    "066": {
+      "index": "1702.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 66"
+    },
+    "067": {
+      "index": "1733.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 67"
+    },
+    "068": {
+      "index": "1760.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 68"
+    },
+    "069": {
+      "index": "1788.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 69"
+    },
+    "070": {
+      "index": "1808.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 70"
+    },
+    "071": {
+      "index": "1834.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 71"
+    },
+    "072": {
+      "index": "1855.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 72"
+    },
+    "073": {
+      "index": "1882.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 73"
+    },
+    "074": {
+      "index": "1909.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 74"
+    },
+    "075": {
+      "index": "1935.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 75"
+    },
+    "076": {
+      "index": "1963.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 76"
+    },
+    "077": {
+      "index": "1990.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 77"
+    },
+    "078": {
+      "index": "2018.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 78"
+    },
+    "079": {
+      "index": "2046.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 79"
+    },
+    "080": {
+      "index": "2073.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 80"
+    },
+    "081": {
+      "index": "2100.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 81"
+    },
+    "082": {
+      "index": "2124.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 82"
+    },
+    "083": {
+      "index": "2152.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 83"
+    },
+    "084": {
+      "index": "2177.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 84"
+    },
+    "085": {
+      "index": "2203.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 85"
+    },
+    "086": {
+      "index": "2230.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 86"
+    },
+    "087": {
+      "index": "2258.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 87"
+    },
+    "088": {
+      "index": "2285.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 88"
+    },
+    "089": {
+      "index": "2315.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 89"
+    },
+    "090": {
+      "index": "2342.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 90"
+    },
+    "091": {
+      "index": "2368.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 91"
+    },
+    "092": {
+      "index": "2393.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 92"
+    },
+    "093": {
+      "index": "2419.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 93"
+    },
+    "094": {
+      "index": "2446.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 94"
+    },
+    "095": {
+      "index": "2472.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 95"
+    },
+    "096": {
+      "index": "2500.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 96"
+    },
+    "097": {
+      "index": "2525.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 97"
+    },
+    "098": {
+      "index": "2554.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 98"
+    },
+    "099": {
+      "index": "2579.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 99"
+    },
+    "100": {
+      "index": "2606.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 100"
+    },
+    "101": {
+      "index": "2635.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 101"
+    },
+    "102": {
+      "index": "2662.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 102"
+    },
+    "103": {
+      "index": "2688.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 103"
+    },
+    "104": {
+      "index": "2715.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 104"
+    },
+    "105": {
+      "index": "2741.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 105"
+    },
+    "106": {
+      "index": "2768.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 106"
+    },
+    "107": {
+      "index": "2795.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 107"
+    },
+    "108": {
+      "index": "2823.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 108"
+    },
+    "109": {
+      "index": "2850.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 109"
+    }
+  },
+  "imagedir": "/Users/dan/dp/pp/catholichistory/pngs",
+  "projectid": "projectID623ad113028e7",
+  "languages": "en+fr+de",
+  "charsuites": {
+    "Basic Latin": true
+  },
+  "bookmarks": {},
+  "imagerotate": {}
+}
