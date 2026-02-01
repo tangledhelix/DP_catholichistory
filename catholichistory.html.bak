@@ -89,19 +89,26 @@ li.isub4 {
 table {
     margin-left: auto;
     margin-right: auto;
+    overflow-x: auto;
+    width: 47em; max-width: 47em; /* only one table this project */
 }
 table.autotable    { border-collapse: collapse; }
 table.autotable td,
-table.autotable th { padding: 0.25em; }
+table.autotable th { padding: 0.75em 0.25em; }
 
 .tdl      {text-align: left;}
 .tdr      {text-align: right;}
 .tdc      {text-align: center;}
 
+.lr-brace1 { height: 32em; max-height: 30em; width: 1.2em; }
+.lr-brace2 { height: 6.5em; max-height: 6em; width: 1em; }
+.lr-brace3 { height: 19em; max-height: 22em; width: 1em; }
+.lr-brace4 { height: 12.5em; max-height: 14em; width: 1em; }
+
 .pagenum { /* uncomment the next line for invisible page numbers */
     /*  visibility: hidden;  */
     position: absolute;
-    left: 92%;
+    left: 1.5%; /* wide table; move to left side */
     font-size: small;
     text-align: right;
     font-style: normal;
@@ -1008,34 +1015,88 @@ would not go wrong in this fashion.</i></p>
 
 <p><span class="pagenum" id="Page_27">[Pg 27]</span></p>
 
-<pre>
-History shows the Catholic    { I. The <i>Minor</i> or Moral Argument }           { (a) The Catholic Church has
-claim to Divine               { from History against  }                      { taught things later proved
-Authority to be false,        { the Catholic claim to } which says that      { erroneous—which no Divine
-by:                           { Divine Authority.     }                      { Authority would do.
-                              {                                              {
-                              {                                              { (b) The Catholic Church has
-                              {                                              { taught things erroneous after
-                              {                                              { she knew them to be erroneous—which
-                              {                                              { no Divine Authority
-                              {                                              { would do.
-                              {                                              {
-                              {                                              { (c) The Catholic Church is
-                              {                                              { highly and increasingly organised—which
-                              {                                              { no Divinely Authorised
-                              {                                              { body would be.
-                              {
-                              { II. The <i>Major</i> or Intellectual }            { (a) (Protestant) The Catholic
-                              { argument from History      } which says that { Church can be historically
-                              { against the Catholic claim }                 { proved a mass of man-made
-                              { to Divine Authority.       }                 { accretions upon an original
-                              {                                              { basis morally true.
-                              {                                              {
-                              {                                              { (b) (Sceptical or Pagan) The
-                              {                                              { Catholic Church can be historically
-                              {                                              { proved to be <i>wholly</i>
-                              {                                              { man-made in <i>all</i> its structure.
-</pre>
+<div style="overflow-x:auto;">
+<table class="autotable" id="TABLE_I">
+
+<tr>
+  <td rowspan="5" style="width: 9em;">
+  History shows the Catholic claim to Divine Authority to be false, by:
+  </td>
+  <td rowspan="5">
+  <img class="lr-brace1" alt="left curly bracket" src="images/left-brace.png">
+  </td>
+  <td colspan="3"></td>
+  <td rowspan="3">
+    <img class="lr-brace3" alt="left curly bracket" src="images/left-brace.png">
+</td>
+  <td style="width: 12em;">
+  (a) The Catholic Church has
+  taught things later proved
+  erroneous—which no Divine
+  Authority would do.
+  </td>
+</tr>
+
+<tr>
+  <td style="width: 11em;">
+  <p class="hanging2">
+  I. The <i>Minor</i> or Moral Argument from History against
+  the Catholic claim to Divine Authority.</p>
+  </td>
+  <td>
+  <img class="lr-brace2" alt="right curly bracket" src="images/right-brace.png">
+  </td>
+  <td style="width: 6.5em;">which says that</td>
+  <td style="width: 12em;">
+  (b) The Catholic Church has
+  taught things erroneous after
+  she knew them to be erroneous—which
+  no Divine Authority
+  would do.
+  </td>
+</tr>
+
+<tr>
+  <td colspan="3"></td>
+  <td style="width: 12em;">
+  (c) The Catholic Church is
+  highly and increasingly organised—which
+  no Divinely Authorised
+  body would be.
+  </td>
+</tr>
+
+<tr>
+  <td rowspan="2"  style="width: 11em;">
+  <p class="hanging2">II. The <i>Major</i> or Intellectual argument from History
+  against the Catholic claim to Divine Authority.</p>
+  </td>
+  <td rowspan="2">
+    <img class="lr-brace2" alt="right curly bracket" src="images/right-brace.png">
+  </td>
+  <td rowspan="2">which says that</td>
+  <td rowspan="2">
+    <img class="lr-brace4" alt="left curly bracket" src="images/left-brace.png">
+  </td>
+  <td style="width: 12em;">
+  (a) (Protestant) The Catholic
+  Church can be historically
+  proved a mass of man-made
+  accretions upon an original
+  basis morally true.
+  </td>
+</tr>
+
+<tr>
+<td style="width: 12em;">
+(b) (Sceptical or Pagan) The
+Catholic Church can be historically
+proved to be <i>wholly</i>
+man-made in <i>all</i> its structure.
+</td>
+</tr>
+</table>
+</div>
 
 <p><span class="pagenum" id="Page_28">[Pg 28]</span></p>
 
@@ -2082,7 +2143,9 @@ of the Catholic Church to have proceeded from
 man.</p>
 
 
-<p>II. <span class="smcap">The Major or Intellectual Argument</span></p>
+<h3 id="II_THE_MAJOR_OR_INTELLECTUAL_ARGUMENT">
+II. <span class="smcap">The Major or Intellectual Argument</span>
+</h3>
 
 <p>The last and much the most important division
 of the arguments based upon History against the
