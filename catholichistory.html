@@ -1,88 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
+    <title>
+      The Catholic Church and history | Project Gutenberg
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+p {
+    margin-top: .5em;
+    text-align: justify;
+    margin-bottom: .5em;
+}
+
+.p2       {margin-top: 2em;}
+.p4       {margin-top: 4em;}
+.p6       {margin-top: 6em;}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+@media print { hr.chap {display: none; visibility: hidden;} }
+hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
+
+hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
+hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; margin-right: 17.5%;}
+
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
+
+ul.index { list-style-type: none; }
+li.ifrst {
+    margin-top: 1em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.indx  {
+    margin-top: .5em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.isub1 {
+    text-indent: -2em;
+    padding-left: 2em;
+}
+li.isub2 {
+    text-indent: -2em;
+    padding-left: 3em;
+}
+li.isub3 {
+    text-indent: -2em;
+    padding-left: 4em;
+}
+li.isub4 {
+    text-indent: -2em;
+    padding-left: 5em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.autotable    { border-collapse: collapse; }
+table.autotable td,
+table.autotable th { padding: 0.25em; }
+
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+.tdc      {text-align: center;}
+
+.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+} /* page numbers */
+
+.linenum {
+    position: absolute;
+    top: auto;
+    left: 4%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+} /* poetry number */
+
+blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.sidenote {
+    width: 20%;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-left: 1em;
+    float: right;
+    clear: right;
+    margin-top: 1em;
+    font-size: small;
+    color: black;
+    background: #eeeeee;
+    border: 1px dashed;
+}
+
+.bb       {border-bottom: 2px solid;}
+
+.bl       {border-left: 2px solid;}
+
+.bt       {border-top: 2px solid;}
+
+.br       {border-right: 2px solid;}
+
+.bbox     {border: 2px solid;}
+
+.center   {text-align: center; text-indent: 0;}
+
+.right    {text-align: right;}
+
+.smcap    {font-variant: small-caps;}
+
+.allsmcap {font-variant: small-caps; text-transform: lowercase;}
+
+.u        {text-decoration: underline;}
+
+.gesperrt
+{
+    font-style: normal;
+    letter-spacing: 0.2em;
+    margin-right: -0.2em;
+}
+.x-ebookmaker-2 .gesperrt {
+    font-style: italic;
+    letter-spacing: normal;
+    margin-right: 0em;
+}
+
+figcaption   {font-weight: bold;}
+figcaption p {margin-top: 0; margin-bottom: .2em; text-align: inherit;}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
 
 
+.figcenter {
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
+.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
+/* .x-ebookmaker .figleft {float: left;} */
+
+.figright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figright on ebookmaker output */
+.x-ebookmaker .figright {float: none; text-align: center; margin-left: 0;}
+/* .x-ebookmaker .figright {float: right;} */
+
+/* Footnotes */
+.footnotes        {border: 1px dashed;}
+
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+/* Poetry */
+/* uncomment the next line for centered poetry */
+/* .poetry-container {display: flex; justify-content: center;} */
+.poetry-container {text-align: center;}
+.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
+.poetry .stanza   {margin: 1em auto;}
+.poetry .verse    {text-indent: -3em; padding-left: 3em;}
+
+/* Transcriber's notes */
+.transnote {background-color: #E6E6FA;
+    color: black;
+    font-size:small;
+    padding:0.5em;
+    margin-bottom:5em;
+    font-family:sans-serif, serif;
+}
 
 
-/X
-THE CALVERT SERIES
-<sc>Hilaire Belloc</sc>, <i>General Editor</i>
+/* indent paragraphs */
+p { text-indent: 1em; }
+p.noindent { text-indent: 0; }
+
+/* de-emphasize page numbers */
+.pagenum { color: #bbbbbb; }
+
+/* footnote block styling */
+.footnotes {
+    border: 1px dashed #aaaaaa;
+    margin-top: 1.5em;
+}
+
+/* TN styling */
+.transnote {
+    background-color: inherit;
+    border: 1px dashed #bbbbbb;
+    margin-top: 3em;
+    page-break-before: always;
+}
+
+/* don't visibly style abbr */
+abbr {
+    border: none;
+    text-decoration: none;
+    font-variant: normal;
+}
+/* abbrs that should be read letter-by-letter */
+abbr.spell { speak: spell-out; }
+
+/* "gray bar" blockquotes */
+blockquote {
+    border-left: .15em solid #c8c8c8;
+    padding-left: .7em;
+    margin-left: 4%;
+    margin-right: 8%;
+}
+
+/* don't wrap; better than invisible word joiner char? */
+.nowrap { white-space: nowrap; }
+
+/* remove italic styling, e.g. on a <cite> */
+.nonitalic { font-style: normal; }
 
 
-THE CATHOLIC CHURCH AND HISTORY
-X/
+    </style>
+</head>
+<body>
 
 
+<p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
+
+<!-- Autogenerated TOC. Modify or delete as required. -->
+<p>
+<a href="#THE_CALVERT_SERIES">THE CALVERT SERIES <span class="smcap">Hilaire Belloc</span>, <i>General Editor</i></a><br>
+<a href="#PREFACE">PREFACE</a><br>
+<a href="#EDITORS_PREFACE">EDITOR’S PREFACE</a><br>
+<a href="#THE_CATHOLIC_CHURCH_AND_HISTORY">THE CATHOLIC CHURCH AND HISTORY</a><br>
+<a href="#THE_CATHOLIC_CHURCH_AND_HISTORY_1">THE CATHOLIC CHURCH AND HISTORY</a><br>
+<a href="#I">I</a><br>
+<a href="#II">II</a><br>
+<a href="#III">III</a><br>
+<a href="#IV">IV</a><br>
+<a href="#FOOTNOTES">FOOTNOTES:</a>
+</p>
+<!-- End Autogenerated TOC. -->
 
 
-THE CALVERT SERIES
-
-<sc>Hilaire Belloc</sc>, <i>General Editor</i>
-
-
-/X
-<i>Belloc</i>: <sc>The Catholic Church and History</sc>
-<i>Chesterton</i>: <sc>The Catholic Church and Conversion</sc>
-<i>McNabb</i>: <sc>The Catholic Church and Philosophy</sc>
-<i>Ward</i>: <sc>The Catholic Church and the Appeal to Reason</sc>
-<i>Windle</i>: <sc>The Catholic Church and Its Reactions With Science</sc>
-X/
+<p class="center">THE CALVERT SERIES
+<span class="smcap">Hilaire Belloc</span>, <i>General Editor</i></p>
 
 
+<h1>THE CATHOLIC CHURCH AND HISTORY
+</h1>
 
 
-/X
-THE CATHOLIC CHURCH
-AND HISTORY
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
 
-BY
-HILAIRE BELLOC
+<p><span class="pagenum" id="Page_2">[Pg 2]</span></p>
 
-<i>NEW YORK</i>
+
+  <h2 class="nobreak" id="THE_CALVERT_SERIES">
+    THE CALVERT SERIES
+    <br>
+    <span class="smcap">Hilaire Belloc</span>, <i>General Editor</i>
+  </h2>
+</div>
+
+
+<p>
+  <i>Belloc</i>: <span class="smcap">The Catholic Church and History</span><br>
+  <i>Chesterton</i>: <span class="smcap">The Catholic Church and Conversion</span><br>
+  <i>McNabb</i>: <span class="smcap">The Catholic Church and Philosophy</span><br>
+  <i>Ward</i>: <span class="smcap">The Catholic Church and the Appeal to Reason</span><br>
+  <i>Windle</i>: <span class="smcap">The Catholic Church and Its Reactions With Science</span>
+</p>
+
+<p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
+
+
+<p class="center">THE CATHOLIC CHURCH
+AND HISTORY</p>
+
+<p class="center">BY
+HILAIRE BELLOC</p>
+
+<p class="center"><i>NEW YORK</i>
 THE MACMILLAN COMPANY
 1927
-<i>All Rights Reserved</i>
-X/
+<i>All Rights Reserved</i></p>
 
 
+<p><span class="pagenum" id="Page_4">[Pg 4]</span></p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p>
+  Nihil Obstat<br>
+  <span class="smcap">Arthur J. Scanlan</span>, S. T. D.<br>
+  Censor Librorum.
+</p>
+</div>
 
 
-Nihil Obstat
+<p>
+  Imprimatur<br>
+  <span class="smcap">Patrick Cardinal Hayes</span><br>
+  ✠ Archbishop, New York.
+</p>
 
-/*
-<sc>Arthur J. Scanlan</sc>, S. T. D.
-Censor Librorum.
-*/
-
-Imprimatur
-
-/*
-<sc>Patrick Cardinal Hayes</sc>
-✠ Archbishop, New York.
-*/
-
-New York, September 16, 1926.
+<p>New York, September 16, 1926.</p>
 
 
-/X
-Copyright, 1926,
-<sc>By</sc> THE MACMILLAN COMPANY.
+<p class="center">Copyright, 1926,
+<span class="smcap">By</span> THE MACMILLAN COMPANY.</p>
 
-Set up and electrotyped.
+<p class="center">Set up and electrotyped.
 Published November, 1926.
 Reprinted, April, 1927.
-September, 1927.
+September, 1927.</p>
 
 
-<i>Printed in the United States of America by</i>
-THE FERRIS PRINTING COMPANY, NEW YORK.
-X/
+<p class="center"><i>Printed in the United States of America by</i>
+THE FERRIS PRINTING COMPANY, NEW YORK.</p>
 
 
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+
+<p><span class="pagenum" id="Page_5">[Pg 5]</span></p>
 
 
-PREFACE
+  <h2 class="nobreak" id="PREFACE">
+    PREFACE
+  </h2>
+</div>
 
 
-The object of the author has been to state and
+<p>The object of the author has been to state and
 summarise in a brief, succinct form the arguments
 drawn from History in opposition to the claim of
 the Catholic Church: that is, to the claim put forward
@@ -95,21 +422,21 @@ to this claim. He is engaged in examining
 the value of the arguments drawn from History to
 prove that the Catholic Church has varied or erred
 in her teaching or has made it depend upon immoral
-methods, and in showing that they have no force.
+methods, and in showing that they have no force.</p>
 
-The little book is divided into two parts, the
+<p>The little book is divided into two parts, the
 first dealing with the three moral arguments:
 (1) that the Church has made pronouncements
 which History can prove to be false; (2) that the
 Church, can be proved by History to have used
 material which she knew to be false; (3) that the
 Church, being proved by history to be not only
-organised but increasingly organised from the beginning
+<span class="pagenum" id="Page_6">[Pg 6]</span>organised but increasingly organised from the beginning
 of its existence, is thereby shown to be
 different from the simple thing which a divine institution
-of the sort should be.
+of the sort should be.</p>
 
-Secondly, the intellectual argument, to wit, that
+<p>Secondly, the intellectual argument, to wit, that
 the Church can be proved by History to be man-made,
 not God-made. This the author divides into
 two sections: (1) the Protestant argument that
@@ -122,21 +449,28 @@ religions, to have grown up like any other religion,
 with the same illusions and similar rites and mysteries,
 and is therefore man-made—which last form
 of attack the author regards as to-day by far the
-most serious.
+most serious.</p>
 
 
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+
+<p><span class="pagenum" id="Page_7">[Pg 7]</span></p>
 
 
-EDITOR’S PREFACE
+  <h2 class="nobreak" id="EDITORS_PREFACE">
+    EDITOR’S PREFACE
+  </h2>
+</div>
 
 
-There needs but a brief introduction from the
+<p>There needs but a brief introduction from the
 same pen as that which composed the essay which
-follows it.
+follows it.</p>
 
-It must be to this effect.
+<p>It must be to this effect.</p>
 
-The general subject “The Catholic Church and
+<p>The general subject “The Catholic Church and
 History” might be treated from a hundred different
 positions. Perhaps the most important in the
 eyes of the cultured man of our day is the question
@@ -155,17 +489,19 @@ cannot even judge whether it be beneficent or no
 until we have decided what we think better and
 what worse—and this issue cannot be decided until
 we are certain of our philosophy, that is, of our
-religion.
+religion.</p>
 
-It is another and more important point to discuss
+<p><span class="pagenum" id="Page_8">[Pg 8]</span></p>
+
+<p>It is another and more important point to discuss
 whether the Church in her long history has,
 or has not, shown exceptional signs of holiness and
 of supernatural power, which are an evidence of her
 claim. There are also, as I have said, very many
 other points of discussion which the general title
-suggests.
+suggests.</p>
 
-I have confined myself to <i>one</i>, and <i>one</i> only, to
+<p>I have confined myself to <i>one</i>, and <i>one</i> only, to
 wit, the rebutting of a certain argument drawn from
 History <i>against</i> the Church. I have done so for
 the reason that, in my eyes at least, much the most
@@ -183,13 +519,13 @@ in my judgment, at the present moment, is the general
 argument that, regarding History as a whole
 and adding to it what little we can guess, and what
 very little we positively know, about man before
-he began to establish records, the Faith is but an
+<span class="pagenum" id="Page_9">[Pg 9]</span>he began to establish records, the Faith is but an
 illusion, parallel to many another such illusion to
 which men have been subject by the process of projecting
 their own imaginations upon the void of
-the universe.
+the universe.</p>
 
-This I am convinced is the chief attack which
+<p>This I am convinced is the chief attack which
 we of the Faith have to meet in modern times. The
 modern white world, the world of the European
 races and their oversea expansion, is rapidly becoming
@@ -198,9 +534,9 @@ those who accept the full mission of the Catholic
 Church and those who are convinced, by the study
 of geology and recorded History, that the Catholic
 Church is but one more example of man’s power of
-self-delusion.
+self-delusion.</p>
 
-Two questions may be asked of me by those
+<p>Two questions may be asked of me by those
 who should read the analysis which makes up my
 booklet. First, why have I confined myself to
 rebutting, that is, to a negative position, instead of
@@ -210,18 +546,18 @@ continuity, unity, etc.)? Secondly, why have
 I given but a portion, and not the largest portion,
 of my space to what I have called the most important
 part of the attack, to wit, the attack from
-general pre-History and History, the purely Sceptical
+<span class="pagenum" id="Page_10">[Pg 10]</span>general pre-History and History, the purely Sceptical
 attack which I deal with at the end of my
 Essay? My answer to these two questions is as
-follows:
+follows:</p>
 
-First, that, in my judgment, the action of the
+<p>First, that, in my judgment, the action of the
 Catholic Church is here a defensive action. The
 opponent <i>takes it for granted</i> that History and pre-History
 <i>dis</i>prove the Catholic claim. He must be
-met as one attacking.
+met as one attacking.</p>
 
-Secondly, that though the general Sceptical attack
+<p>Secondly, that though the general Sceptical attack
 is by far the more important, yet it needs less
 space in writing for the meeting of it than does
 the discussion of the old Protestant attitude. The
@@ -236,25 +572,40 @@ simple and direct “yes” or “no”; which is, briefly,
 the answer to that old, eternal question “whether
 religion be from God or from man”; and upon the
 answer to that question depends the future of our
-civilisation.—<i>The Editor.</i>
+civilisation.—<i>The Editor.</i></p>
 
 
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+
+<p><span class="pagenum" id="Page_11">[Pg 11]</span></p>
 
 
-THE CATHOLIC CHURCH AND HISTORY
+  <h2 class="nobreak" id="THE_CATHOLIC_CHURCH_AND_HISTORY">
+    THE CATHOLIC CHURCH AND HISTORY
+
+<p><span class="pagenum"><a id="Page_12"></a><a id="Page_13"></a>[Pg 13]</span></p>
+  </h2>
+</div>
 
 
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+  <h2 class="nobreak" id="THE_CATHOLIC_CHURCH_AND_HISTORY_1">
+    THE CATHOLIC CHURCH AND HISTORY
+  </h2>
+</div>
 
 
-THE CATHOLIC CHURCH AND HISTORY
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+  <h2 class="nobreak" id="I">
+    I
+  </h2>
+</div>
 
 
-
-
-I
-
-
-1. By the term “The Church” I mean the Catholic
+<p>1. By the term “The Church” I mean the Catholic
 Church; and by the Catholic Church I mean
 that visible society real, one, and clearly present
 before the world to-day, which is in communion
@@ -262,12 +613,12 @@ with the Apostolic See of Rome, and accepts not
 only the supremacy of that see but also the Infallibility
 of its occupant when, as shepherd and teacher
 of all Christians, and speaking in that capacity, he
-defines a matter in faith or morals.
+defines a matter in faith or morals.</p>
 
-2. The Church claims Divine Authority. She
-says:
+<p>2. The Church claims Divine Authority. She
+says:</p>
 
-“I alone know fully and teach those truths essential
+<p>“I alone know fully and teach those truths essential
 to the life and final happiness of the soul. I
 alone am that Society wherein the human spirit
 reposes in its native place; for I alone stand in the
@@ -276,21 +627,21 @@ the chaotic perspective of things falls into right
 order. Mankind cannot feed upon itself—for that
 is death at last. I alone provide external sustenance
 from that which made mankind. The soil of my
-country alone can fully nourish mankind. Here,
+<span class="pagenum" id="Page_14">[Pg 14]</span>country alone can fully nourish mankind. Here,
 in me, alone is reality. For I alone am not man-made
 but am of direct divine foundation and am
-by my divine Founder perpetually maintained.”
+by my divine Founder perpetually maintained.”</p>
 
-3. Against this claim many forms of rejection
+<p>3. Against this claim many forms of rejection
 are found, each with its type of argument: as, that
 the claim conflicts with the ascertained results of
 Physical Science: that it advances a particular affirmation
 not based on the only proofs admissible by
 reason: that the objector discovers in the Church
 not the marks of holiness which should accompany
-such a claim, but rather of evil, etc.
+such a claim, but rather of evil, etc.</p>
 
-Among the chief objections is the objection from
+<p>Among the chief objections is the objection from
 History. It is affirmed that the records of the past,
 the better they are known and the more closely
 they are examined, make the more certainly for the
@@ -303,12 +654,12 @@ rites are of the kind imagined by men in all ages
 and places wherever men have abandoned themselves
 to emotional images divorced from reason.
 Her doctrines are spun out of nothingness by men
-engaged upon mere systems invented to explain
+<span class="pagenum" id="Page_15">[Pg 15]</span>engaged upon mere systems invented to explain
 irrational statements. Her objects of worship are
 but projections of the worshipper’s mind and have
-no real existence.
+no real existence.</p>
 
-History, it is said, can prove all this. We can
+<p>History, it is said, can prove all this. We can
 trace illusion growing from step to step: the
 mythical and legendary gradually accepted for fact;
 the doubtful, vague, uncertain, tentative dream
@@ -325,30 +676,33 @@ whom they have worshipped always in much the
 same fashions. There has been a long process of
 self-deception from which humanity in its advance
 is gradually freeing itself, and in this process the
-Catholic Church is but the last phase.
+Catholic Church is but the last phase.</p>
 
-It is this objection, the argument from History,
+<p>It is this objection, the argument from History,
 that I propose to refute. Certain other of the main
 objections—the objection from Reason, the objection
-from Philosophy, the objection from Physical
+<span class="pagenum" id="Page_16">[Pg 16]</span>from Philosophy, the objection from Physical
 Science—are dealt with in other works in this series.
 I am dealing with the historical objection alone. I
 propose to show, not that History may convince
 any man of the Church’s claim, but that the supposed
 argument from History against that claim
 has failed. I propose to enquire upon the validity
-of the objection from History.
+of the objection from History.</p>
 
 
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+  <h2 class="nobreak" id="II">
+    II
+  </h2>
+</div>
 
 
-II
+<p>Premises must precede such an enquiry. I lay
+them down as follows:</p>
 
-
-Premises must precede such an enquiry. I lay
-them down as follows:
-
-(1) The refutation of any argument against the
+<p>(1) The refutation of any argument against the
 Faith is not a demonstration of the truth of the
 Faith. It is the removal only of an obstacle to the
 Faith. For the Faith is not arrived at by demonstration,
@@ -361,15 +715,17 @@ deductively arrived at. There is no process whereby
 all mankind can be convinced of it as of an abstract
 proposition. But there is a process whereby all
 mankind can be convinced that each particular
-proposition against it has failed.
+proposition against it has failed.</p>
 
-This principle in what is called “Apologetics”
+<p><span class="pagenum" id="Page_17">[Pg 17]</span></p>
+
+<p>This principle in what is called “Apologetics”
 (that is, writings in defence of Catholic truth) is
 so generally neglected that it is of the first importance
 to make it quite clear at the opening of any
-discussion upon revealed religion.
+discussion upon revealed religion.</p>
 
-A man who can see colours will never be able to
+<p>A man who can see colours will never be able to
 prove colour to a colour-blind man. He can show
 that the colour-blind man’s arguments—e.g., that
 colours do not exist because if they did they would
@@ -381,22 +737,22 @@ senses than that of sight. He can only <i>prove</i> (in
 the strict deductive sense of the word “prove”)
 that the sense of colour is rational, acceptable without
 violence to the human mind; but that it is
-present he must establish by other methods.
+present he must establish by other methods.</p>
 
-Nearly all our modern debates in this matter are
+<p>Nearly all our modern debates in this matter are
 confused by the fact that one of the parties misconceives
 the nature of these debates. The opponent
 of Catholicism thinks that its apologist is, in arguing,
 trying to prove Catholic truth as one proves
 a case for a positive verdict. He is not. He is
 rebutting the supposed value of opposing evidence;
-he is pleading for a negative verdict; for acquittal
+<span class="pagenum" id="Page_18">[Pg 18]</span>he is pleading for a negative verdict; for acquittal
 of the charge “irrational.” When he comes to establishing
 the Faith positively, he does not do so by
 following one line of deductive reason, but by a
-mass of converging considerations.
+mass of converging considerations.</p>
 
-History cannot be said to prove the Faith, save
+<p>History cannot be said to prove the Faith, save
 in the very extended use of the word “prove” to
 mean a general process of increasing conviction
 from the examination of what is revealed of the
@@ -407,22 +763,22 @@ of acceptors and rejectors compared. But it can be
 does not shake the Church’s claim to Divine
 Authority: while, on the contrary, a lesser knowledge
 is almost invariably more hostile to that
-authority than a greater.
+authority than a greater.</p>
 
-(2) I have used the term “reason,” and this
+<p>(2) I have used the term “reason,” and this
 leads me to my second premise: The human reason
-is absolute in its own sphere.
+is absolute in its own sphere.</p>
 
-That elementary truth is often denied to-day
+<p>That elementary truth is often denied to-day
 (though the minds which deny it can only use
 reason to arrive at this very conclusion!), but it is
 fundamental and I must postulate it as a necessary
 prelude to any discussion. For to argue with men
-who deny the basis of all argument is futile; it is
+<span class="pagenum" id="Page_19">[Pg 19]</span>who deny the basis of all argument is futile; it is
 like pleading in a court where the judge is a corpse
-and the jury a set of waxworks.
+and the jury a set of waxworks.</p>
 
-A man says, “The river Ohio flows eastwards.”
+<p>A man says, “The river Ohio flows eastwards.”
 I show by the compass, the map, and the sun, or in
 any other rational way you like that it flows westward.
 If he then answer me, “Oh! that is formal
@@ -442,10 +798,10 @@ untrue at the same time—but for men of sane tradition
 who admit logic as a court of final appeal in
 things of the mind. For we Catholics regard reason
 as supreme in its own sphere and will admit nothing
-contrary to reason.
+contrary to reason.</p>
 
-(3) Lastly, I must premise that we are discussing
-things as they are: the real Catholic Church;
+<p>(3) Lastly, I must premise that we are discussing
+<span class="pagenum" id="Page_20">[Pg 20]</span>things as they are: the real Catholic Church;
 and are excluding from the discussion what is not
 germane to it. We are discussing the claim of the
 Catholic Church to authority, the claims of its
@@ -470,40 +826,43 @@ have taught this but the Catholic Church has never
 taught it.” Or if it be said, “The Catholic Church
 affirms the witness of the fourth Gospel but all reasoning
 men admit that it is spurious,” it is replied,
-“All reasoning men do not admit that it is spurious:
+<span class="pagenum" id="Page_21">[Pg 21]</span>“All reasoning men do not admit that it is spurious:
 that is but the affirmation of a fashionable
-school.”)
+school.”)</p>
 
 
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+  <h2 class="nobreak" id="III">
+    III
+  </h2>
+</div>
 
 
-III
-
-
-We must begin by establishing the main sections
+<p>We must begin by establishing the main sections
 into which is divided the argument from History
-against the claims of the Catholic Church.
+against the claims of the Catholic Church.</p>
 
-But before setting out these sections in their order
+<p>But before setting out these sections in their order
 I must reject one as having no relation to the discussion,
 though often confused with it: I mean the
-so-called historical argument from material prosperity.
+so-called historical argument from material prosperity.</p>
 
-It is advanced that the claim of the Catholic
+<p>It is advanced that the claim of the Catholic
 Church to Divine Authority is negatived by a
 proved historical process whereby societies rejecting
 the Church’s claim are blessed with material prosperity,
 while societies accepting that claim become
-poor.
+poor.</p>
 
-Such an argument no more applies to societies in
+<p>Such an argument no more applies to societies in
 their relation to the Church’s authority than it does
 to individuals in relation to the authority of their
 own conscience or of their own reason. My conviction
 that a course of action is morally right, or
 that a given statement is intellectually true, is not
 to be tested by its effect upon my income. In point
-of fact, the argument is as worthless in its presumptions
+<span class="pagenum" id="Page_22">[Pg 22]</span>of fact, the argument is as worthless in its presumptions
 as in its reasoning. The historical affirmation
 is historically false. It is not true that
 societies have risen in wealth through the rejection
@@ -512,55 +871,55 @@ the retention of it. The two phenomena are not
 correlated in History at all, and there is as much to
 be set upon the one side of the account in this brief
 two hundred years over which the rises and falls
-extend as on the other.
+extend as on the other.</p>
 
-But even were the statement true, the application
+<p>But even were the statement true, the application
 of it would be clearly beside the mark: even had
 every Catholic society fallen into penury and every
 anti-Catholic risen to affluence, it would be utterly
 without bearing upon the truth or falsehood of the
-Catholic claim.
+Catholic claim.</p>
 
-This being said, what are the respectable and
+<p>This being said, what are the respectable and
 historical arguments against the Faith? What are
 those arguments drawn from History of which the
 intelligent man must take serious notice? They
-would seem to fall into two categories:
+would seem to fall into two categories:</p>
 
-The first argument I will call the minor argument,
+<p>The first argument I will call the minor argument,
 because it appeals only to the moral sense—not
 that the moral sense is less than the intellectual,
 but that in weighing questions of material evidence
-(which is the matter of History) a moral test takes
+<span class="pagenum" id="Page_23">[Pg 23]</span>(which is the matter of History) a moral test takes
 the second place. Thus, in a court of justice evidence
 to character, though of weight, counts less in
 establishing a man’s claim than material evidence.
 Next I find, and much more cogent, a major argument,
 which is directly concerned with the intellectual
-facilities of man.
+facilities of man.</p>
 
-(I) The minor, or moral argument, as I have
+<p>(I) The minor, or moral argument, as I have
 called it, is directed against the character of the
 Church, and attempts to show from History that
 her character is not consonant with her claims. It
 has many forms: accusations of cruelty, of unsocial
 neglect in material things, etc., but the main headings
-are three:
+are three:</p>
 
-(a) The Church has been historically confident
+<p>(a) The Church has been historically confident
 upon and has affirmed as truths a number of points
 since proved to be erroneous: a Divine Authority
-would never go wrong upon any point.
+would never go wrong upon any point.</p>
 
-(b) The Church has relied on falsehoods and
+<p>(b) The Church has relied on falsehoods and
 propagated them <i>after</i> she had known them to be
 falsehoods, and has not abandoned them until she
 was compelled to abandon them by the overwhelming
 weight of evidence. No Divine Authority
-would act in this fashion.
+would act in this fashion.</p>
 
-(c) The Church is highly organised and has
-apparently always shown organisation: such organisation
+<p>(c) The Church is highly organised and has
+<span class="pagenum" id="Page_24">[Pg 24]</span>apparently always shown organisation: such organisation
 has developed more and more from the
 beginning, or at any rate from a very early stage
 indeed. The Church is a body whose doctrines,
@@ -570,13 +929,13 @@ from the less to the more defined. Nothing possessing
 divine inspiration would be organised, for
 organisation is mechanical and is of death: inspiration,
 which is of life, remains free, at large, untrammelled
-by rule.
+by rule.</p>
 
-(II) What I have called the major, intellectual
+<p>(II) What I have called the major, intellectual
 argument, which is much the more serious in all
-our debate, stands thus:
+our debate, stands thus:</p>
 
-The Church is man-made, as can be seen by the
+<p>The Church is man-made, as can be seen by the
 appearance over and over again in History of a doctrine
 or a practice unknown to an earlier epoch,
 and more largely, by a comparison between all
@@ -587,15 +946,15 @@ many similar phenomena, one of many religions,
 with rites and doctrines not indeed identical (they
 differ widely), but all having parts in common and
 all presumably of human institution. Therefore
-the Church must be included in the character of all
+<span class="pagenum" id="Page_25">[Pg 25]</span>the Church must be included in the character of all
 religions: it is but one of many and man-made like
-the rest.
+the rest.</p>
 
-But this major, intellectual argument falls into
+<p>But this major, intellectual argument falls into
 two very distinct branches, which I will call the
-Protestant and the purely Sceptical.
+Protestant and the purely Sceptical.</p>
 
-(a) The Protestant appeal to History takes the
+<p>(a) The Protestant appeal to History takes the
 form of saying: “The Christian revelation is indeed
 divine, but at some period (earlier or later, according
 to the views of the disputant) it was corrupted
@@ -606,16 +965,16 @@ Church as we know it is essentially man-made. But
 there does underlie it some divine foundation, some
 moral revelation not man-made.” (The limits of
 this acceptable minimum each individual disputant
-fixes for himself.)
+fixes for himself.)</p>
 
-(b) The Sceptical appeal to History—much the
+<p>(b) The Sceptical appeal to History—much the
 most formidable to-day, and always intellectually
 the most respectable—speaks in much bolder tones,
 thus: “The whole of the Catholic Faith from beginning
 to end is man-made. It is a mass of illusions:
 of projections of the human mind thrown
 by the human imagination upon the void; of deceptions,
-some of them conscious in some degree, many
+<span class="pagenum" id="Page_26">[Pg 26]</span>some of them conscious in some degree, many
 more but half-conscious; by far the most unconscious,
 implanted in the mind by early training.
 What the Catholic Church affirms is false from
@@ -624,33 +983,38 @@ affirmations of the Catholic Faith have been thus
 man-made step by step from the very first origins
 we can discover. The idea of a God is man-made;
 so is the sacramental idea, the idea of Incarnation—the
-whole affair.”
+whole affair.”</p>
 
-Such, as it seems to me, are the historical arguments
+<p>Such, as it seems to me, are the historical arguments
 against the claim of the Catholic Church to
 Divine Authority. Those arguments, tabulated in
 the order of their importance, that is, of the power
 they wield over a rational human mind fully open
 to evidence and to approaches of reason, I will here
-set down in graphic form:
+set down in graphic form:</p>
 
-I propose therefore to deal with them in their
+<p>I propose therefore to deal with them in their
 order, beginning with the least and going on to the
-greatest.
+greatest.</p>
 
 
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+  <h2 class="nobreak" id="IV">
+    IV
+  </h2>
+</div>
 
 
-IV
+<p>(I) <span class="smcap">The Minor or Moral Argument</span></p>
 
-
-(I) <sc>The Minor or Moral Argument</sc>
-
-(a) <i>That the Church has been historically
+<p>(a) <i>That the Church has been historically
 wrong upon a number of facts: a Divine Authority
-would not go wrong in this fashion.</i>
+would not go wrong in this fashion.</i></p>
 
-/*
+<p><span class="pagenum" id="Page_27">[Pg 27]</span></p>
+
+<pre>
 History shows the Catholic    { I. The <i>Minor</i> or Moral Argument }           { (a) The Catholic Church has
 claim to Divine               { from History against  }                      { taught things later proved
 Authority to be false,        { the Catholic claim to } which says that      { erroneous—which no Divine
@@ -677,13 +1041,15 @@ by:                           { Divine Authority.     }                      { A
                               {                                              { Catholic Church can be historically
                               {                                              { proved to be <i>wholly</i>
                               {                                              { man-made in <i>all</i> its structure.
-*/
+</pre>
 
-We begin by defining what we mean by the
+<p><span class="pagenum" id="Page_28">[Pg 28]</span></p>
+
+<p>We begin by defining what we mean by the
 words “the Church,” or that body of pronouncement
-by the Church which we call “the Faith.”
+by the Church which we call “the Faith.”</p>
 
-Manifestly, a corporate authority is not responsible
+<p>Manifestly, a corporate authority is not responsible
 for pronouncements on which it has allowed
 divergence: manifestly, again, such an authority is
 not responsible for pronouncements on which it has
@@ -691,24 +1057,24 @@ allowed change without protest. Manifestly, it is
 not responsible for pronouncements made not by
 itself through its admitted organs of universal
 affirmation, but by certain of its body acting as
-individuals or even as parts.
+individuals or even as parts.</p>
 
-I use the word “manifestly.” This may seem
+<p>I use the word “manifestly.” This may seem
 too strong a term in the ears of those who have
 heard precisely these false arguments repeated so
 often that the statement of their falsity sounds
-novel and strange.
+novel and strange.</p>
 
-But if we examine the propositions closely, we
+<p>But if we examine the propositions closely, we
 shall see that this word “manifestly” exactly and
-inevitably applies in the three cases.
+inevitably applies in the three cases.</p>
 
-A particular body makes the awful claim to
+<p>A particular body makes the awful claim to
 Divine Authority and Infallibility. That claim
 may be false, and even ridiculous: but “manifestly”
 it could not at the same time make the claim and
 make an absolutely contradictory claim. For the
-word “body” substitute the word “man”; let us
+<span class="pagenum" id="Page_29">[Pg 29]</span>word “body” substitute the word “man”; let us
 suppose a particular man to come forward and say,
 “I have Divine Authority to teach. On matters
 essential to ultimate human happiness I can give
@@ -733,11 +1099,11 @@ in this matter: so far I have not defined it; but I
 warn you that when I do define it I shall claim my
 reply to be infallible.” If he so answer, then the
 hypotheses he may be examining in the interval
-may be numerous and even contradictory one to
+<span class="pagenum" id="Page_30">[Pg 30]</span>may be numerous and even contradictory one to
 the other without their divergence affecting his
-claim.
+claim.</p>
 
-Tested by this very simple (and I think, conclusive)
+<p>Tested by this very simple (and I think, conclusive)
 parallel, the historical argument drawn
 from historical error attributable to the Church
 fails. <i>If any man can give a particular instance in
@@ -746,9 +1112,9 @@ organs of affirmation which the Church solemnly
 defines as hers, and can say what error, historically
 proved, has since attached to such an affirmation
 then he shall be met.</i> But no man has brought forward
-such a case.
+such a case.</p>
 
-What such affirmation is to be found? The
+<p>What such affirmation is to be found? The
 history is a long one; it extends over nearly two
 thousand years. It is not difficult at all, rather it
 is singularly easy and definite to say in any period,
@@ -760,7 +1126,7 @@ first Council of Ephesus; it was œcumenical; it
 acted overtly under Papal authority. Can you give
 a point therein defined which has been proved since
 to be historically erroneous? or in the Council of
-Trent? or of the Fourth Lateran? or of the Vatican?
+<span class="pagenum" id="Page_31">[Pg 31]</span>Trent? or of the Fourth Lateran? or of the Vatican?
 or of Nicæa? In which of them have you an
 affirmation which History has disproved? There is
 none. The more you contemplate that extraordinary
@@ -771,9 +1137,9 @@ with the negative argument. There has not
 been in point of fact any official affirmation proceeding
 from the accredited organs of the Catholic
 Church—not one—from the beginning to the
-present day, which has received historical disproof.
+present day, which has received historical disproof.</p>
 
-Here it may be objected that such affirmations,
+<p>Here it may be objected that such affirmations,
 solemnly pronounced as the final decision of the
 Church, concern matters which are not of their
 nature susceptible of historical disproof; they concern
@@ -782,12 +1148,12 @@ the personality of the Godhead, its triune quality,
 the Incarnation, etc. In other words, since the
 Church has not touched on historical matters but
 only on metaphysical, she has preserved herself
-from attack upon those lines.
+from attack upon those lines.</p>
 
-In point of fact, the argument is not strictly conclusive,
+<p>In point of fact, the argument is not strictly conclusive,
 for there are exceptional points—for instance,
 the Resurrection—in which the Church
-might very well have been challenged by clear,
+<span class="pagenum" id="Page_32">[Pg 32]</span>might very well have been challenged by clear,
 overwhelming, multiple, historical proof—and it
 has not been so challenged. But take the contention
 for what it is (and in the main it is true) that the
@@ -798,11 +1164,11 @@ against the Faith in that particular. We must under
 this particular head—a minor one I admit—accept
 the fact that the Faith has not proposed through its
 authoritative organs in any of its definitions of
-dogma something which <i>History</i> has disproved.
+dogma something which <i>History</i> has disproved.</p>
 
-But what of divergence, and what of change?
+<p>But what of divergence, and what of change?</p>
 
-As to divergence, the answer to me seems simple
+<p>As to divergence, the answer to me seems simple
 and brief. Where divergence is admitted, and so
 long as it is admitted, infallible pronouncement is
 neither claimed nor can be at work. The divergence
@@ -814,7 +1180,7 @@ in communion and which have acted with his
 authority—the Council of Nicæa, for instance—something
 which in a later age the same authoritative
 organs had to deny in the face of new historical
-evidence, then there would be a fundamental
+<span class="pagenum" id="Page_33">[Pg 33]</span>evidence, then there would be a fundamental
 divergence and an historical argument against the
 claim to Divine Authority. I repeat, as I shall continue
 to repeat throughout this brief essay, the
@@ -830,9 +1196,9 @@ itself. Granted (though I think it would have
 its work cut out)! But at least it must be admitted
 that the consistency is there, and that, therefore, an
 historical argument drawn from inconsistency does
-not lie.
+not lie.</p>
 
-Now what of the more formidable argument
+<p>Now what of the more formidable argument
 drawn from change? It is not to be doubted as an
 historical truth that in one era the general mood of
 Christians with regard to a particular point lay in
@@ -840,25 +1206,25 @@ one direction, in another era, in another. It is
 probable, for instance, that the early Church expected
 the Second Advent in a more or less brief
 period. It is certain that many holy men, perhaps
-repeating the mood of their time, thought, in an
+<span class="pagenum" id="Page_34">[Pg 34]</span>repeating the mood of their time, thought, in an
 earlier age, of the state of the dead as one of sleep
 awaiting the Resurrection, with no definition of the
 Particular Judgment, and so forth. In one period
 one devotion prevails; in another, another. One
 great doctrine is emphasised in one era; another in a
-later era.
+later era.</p>
 
-Here, then, is change.
+<p>Here, then, is change.</p>
 
-To which I answer that the change is never—has
+<p>To which I answer that the change is never—has
 never been in any particular instance which any
 historian can find and point out—a change of doctrine.
 There has never been a definition, never a
 pronouncement, by any organ of the Church, saying
 “This or that is so,” of which such changes of
-mood have later compelled a retraction.
+mood have later compelled a retraction.</p>
 
-Had we, for instance, in the early documents of
+<p>Had we, for instance, in the early documents of
 the Church, a solemn, definite Apostolic statement
 that Our Lord would come back to earth in glory
 before the destruction of Jerusalem: had we any
@@ -868,11 +1234,11 @@ disappointment to the Apostles: had we any echo
 of voices in the Apostolic or sub-Apostolic period
 saying, “Since He has not come again we are deceived
 by the Church”—then the particular case I
-have mentioned (and it is only one out of a great
+<span class="pagenum" id="Page_35">[Pg 35]</span>have mentioned (and it is only one out of a great
 number) would be arguable. But we have none
-such.
+such.</p>
 
-Had we a solemn pronouncement registered, as
+<p>Had we a solemn pronouncement registered, as
 of the Faith, that the dead lay unliving and out of
 communion with us or with life as a whole from
 the moment of their passing to the Resurrection of
@@ -880,14 +1246,14 @@ the Flesh, then the statement that this was a contradiction
 with later defined doctrine on the Particular
 Judgment and with our prayers for the dead,
 would be arguable. But there has been no such
-pronouncement.
+pronouncement.</p>
 
-In other words, change, in the sense of change of
+<p>In other words, change, in the sense of change of
 vague mood, has no more historical weight in this
 department than the admitted divergence between
-individuals or sections upon matters undefined.
+individuals or sections upon matters undefined.</p>
 
-Before authority has spoken, authority has not
+<p>Before authority has spoken, authority has not
 committed itself. When authority has spoken, contradiction
 must be established between itself and
 itself: or there is no historical argument against the
@@ -896,20 +1262,20 @@ is no such argument only because authority is
 careful not to contradict itself. Well and good; but
 it remains true that the contradiction has not taken
 place, and that therefore the historical argument
-based upon it fails. When or if it shall apparently
+<span class="pagenum" id="Page_36">[Pg 36]</span>based upon it fails. When or if it shall apparently
 take place, there will be time to meet such an argument
 in its apparent strength. But so far—and the
 period, remember, is one far longer than that
 attached to any other defined human institution—the
-argument does not apply.
+argument does not apply.</p>
 
-Now, though it is not logically connected with
+<p>Now, though it is not logically connected with
 the strict process of reason I am here developing,
 may I not ask the reader rhetorically once more
 whether that is not in his eyes a very singular
-phenomenon?
+phenomenon?</p>
 
-Here is an organised corporation, a strict society,
+<p>Here is an organised corporation, a strict society,
 which has admittedly existed continuously for this
 prodigious length of time, through extreme vicissitudes
 of knowledge and of ignorance, through the
@@ -923,7 +1289,7 @@ of gross popular credulity and equally gross alternate
 phases of popular scepticism; which has been
 bathed in the enthusiasm of the twelfth century,
 has gloried in the moral splendours of the thirteenth,
-has struggled through the filth of our
+<span class="pagenum" id="Page_37">[Pg 37]</span>has struggled through the filth of our
 modern time; has suffered the splendid temptations
 of the Renaissance; has next found itself struggling
 with the base madnesses of Puritan assaults.
@@ -937,9 +1303,9 @@ all these the institution which is historically the
 oldest and the most permanent of political human
 things cannot be discovered affected to change in
 any of its final pronouncements by these human
-changes. It cannot be discovered in a contradiction.
+changes. It cannot be discovered in a contradiction.</p>
 
-That such a phenomenon—wholly unique in
+<p>That such a phenomenon—wholly unique in
 the story of mankind—should be of human origin
 is logically possible. It involves no contradiction
 in terms. An unbroken tradition of rigid caution,
@@ -948,21 +1314,23 @@ might conceivably produce such consistency by
 human agency alone and as the result of human
 calculation. But the least we can say is that such
 an effect would be different from anything we know
-of men and of their actions.
+of men and of their actions.</p>
 
-(b) <i>That the Church has maintained error after
-knowing it to be error: that it has lied.</i>
+<p><span class="pagenum" id="Page_38">[Pg 38]</span></p>
 
-The second charge under this head is that the
+<p>(b) <i>That the Church has maintained error after
+knowing it to be error: that it has lied.</i></p>
+
+<p>The second charge under this head is that the
 Church has not only made, in good faith, errors
 which she has had to retract, but has actually relied
 on falsehood when she knew it to be falsehood and
 particularly in the case of errors originally committed
 in good faith, but continued with the
 deliberate intention to deceive. No Divine Authority
-would do that.
+would do that.</p>
 
-Now the value of such assertions—and they are
+<p>Now the value of such assertions—and they are
 frequently made—may be tested <i>a fortiori</i>, by
 taking the two principal classical examples upon
 which our opponents especially rely. It would be
@@ -970,35 +1338,35 @@ impossible to go over the whole category of these
 assertions, for they touch innumerable points. But
 since they all have in common one similar misunderstanding,
 it will suffice to examine two with
-perhaps a brief allusion to another.
+perhaps a brief allusion to another.</p>
 
-These two chief examples I take to be the Donation
-of Constantine and the eternal Galileo case.
+<p>These two chief examples I take to be the Donation
+of Constantine and the eternal Galileo case.</p>
 
-Though in each case the wrongful assertion
+<p>Though in each case the wrongful assertion
 against the Faith is based on the same fundamental
 misunderstanding, yet each exemplifies one of the
 two separate chief types of that misunderstanding.
-The accusation in connection with the Donation of
+<span class="pagenum" id="Page_39">[Pg 39]</span>The accusation in connection with the Donation of
 Constantine exemplifies the supposed deliberate use
 of forgery by the Church: the Galileo case exemplifies
 her supposed tenacity in demonstrated error—an
 authority claiming infallibility and reluctant to
-admit that it has been clearly proved fallible.
+admit that it has been clearly proved fallible.</p>
 
-Let us see how these two test cases come out of a
-close examination.
+<p>Let us see how these two test cases come out of a
+close examination.</p>
 
-It is asserted in the case of the Donation of Constantine
+<p>It is asserted in the case of the Donation of Constantine
 that this document was a forgery: that on
 that forgery was based a particular doctrine, to wit,
 the supremacy of the see of Peter: that when it was
 proved a falsehood the Church continued to defend
 it, and that, since her spokesmen were compelled at
 last to abandon it, with it there fell the necessary
-prop of the Papal contention.
+prop of the Papal contention.</p>
 
-The Donation of Constantine is a document purporting
+<p>The Donation of Constantine is a document purporting
 to be a grant by the Emperor Constantine
 to Pope Sylvester, his contemporary, of civil jurisdiction
 over the town of Rome; of temporal sovereignty
@@ -1006,10 +1374,10 @@ over certain adjacent districts in Central
 Italy; of sundry ritual dignities in dress and public
 office; of the Lateran Palace for a residence in perpetuity;
 and with all this the recognition of the
-spiritual jurisdiction of the Bishop of Rome over
-the universal Church.
+<span class="pagenum" id="Page_40">[Pg 40]</span>spiritual jurisdiction of the Bishop of Rome over
+the universal Church.</p>
 
-It first appeared about the time when the French
+<p>It first appeared about the time when the French
 Monarchy was supporting the Pope against his
 enemies and particularly against Byzantium, and
 when that monarchy was preparing the way for
@@ -1025,20 +1393,20 @@ baptism till long after, and then not from the Pope,
 but from an Eastern Bishop. It represents the
 Emperor as being cured by baptism of leprosy—a
 disease which he certainly never had—and as
-making the donation out of gratitude.
+making the donation out of gratitude.</p>
 
-The whole thing is manifestly mythical and
+<p>The whole thing is manifestly mythical and
 legendary. But how does that false character affect
-the claim of the Church to infallibility in doctrine?
+the claim of the Church to infallibility in doctrine?</p>
 
-To answer that question we must begin by granting
+<p>To answer that question we must begin by granting
 all those points, both doubtful and actually
 false, which our opponents advance as historical
-fact; for we shall see that even with the fullest
+<span class="pagenum" id="Page_41">[Pg 41]</span>fact; for we shall see that even with the fullest
 admission of their imaginary facts, that case has not
-a leg to stand upon.
+a leg to stand upon.</p>
 
-They tell us that the document was a forgery
+<p>They tell us that the document was a forgery
 (that is, a falsehood) produced with deliberate
 intent to support a novel claim upon the part of
 the Papacy. It is in fact nothing of the sort. It is
@@ -1060,15 +1428,15 @@ jurisdiction in Rome after the transfer of Imperial
 authority to the East. It is virtually certain that
 the Lateran Palace became his official residence about
 the same time, and though we have not sufficient
-record of the steps whereby the Papal Government
+<span class="pagenum" id="Page_42">[Pg 42]</span>record of the steps whereby the Papal Government
 gradually came to administrate the Roman district
 in the place of the Byzantine Government, which
 had less and less real power there (especially after
 the Iconoclastic quarrel), yet we do know that such
 jurisdiction was exercised long before we find any
-mention of the Donation.
+mention of the Donation.</p>
 
-But, I repeat, for the purpose of my argument it
+<p>But, I repeat, for the purpose of my argument it
 is better to grant to our opponents not only what
 is doubtful, but what is certainly false in their supposed
 facts. Granted that the Donation was a
@@ -1083,25 +1451,25 @@ may be very simply stated. You will find it expressed
 everywhere by all competent authorities
 over a prodigious lapse of time in words almost
 identical; for it is as clear as it is brief. That doctrine
-is as follows:
+is as follows:</p>
 
-Our Lord constituted the Apostolic College. Of
+<p>Our Lord constituted the Apostolic College. Of
 that College he gave Peter the Primacy. This
-Primacy by divine constitution successively attached
+<span class="pagenum" id="Page_43">[Pg 43]</span>Primacy by divine constitution successively attached
 to the sees which Peter founded, first at Jerusalem,
 then at Antioch, finally at Rome. Its power lies not
 in the fact that Rome was the capital of the ancient
 world, but in the fact that St. Peter chose it for his
 final see. This Primacy of the see of Rome is
 superior to, and more universal than, its patriarchate
-of the West.
+of the West.</p>
 
-Now against that doctrine historical argument
+<p>Now against that doctrine historical argument
 must show that Primacy was not recognised until
 the Donation, if the Donation be the argument in
-force.
+force.</p>
 
-There are many other historical arguments, of
+<p>There are many other historical arguments, of
 course, brought to bear against the original Primacy
 of Rome; but I am examining the very strong
 example of the Donation as a test case. Take any
@@ -1111,11 +1479,11 @@ examine the chain of evidence, not indeed as to the
 divine institution of the Papacy (for that is a matter
 of faith, not of History), but as to the original
 Primacy of Rome, as admitted by Christians, which
-is a matter of History, not of faith.
+is a matter of History, not of faith.</p>
 
-The chain reaches down to the very beginnings
-of our society. One of our most formidable opponents[1]
-puts what he calls the “first step in Papal
+<p>The chain reaches down to the very beginnings
+of our society. One of our most formidable opponents&#x2060;<a id="FNanchor_1_1" href="#Footnote_1_1" class="fnanchor">[1]</a>
+<span class="pagenum" id="Page_44">[Pg 44]</span>puts what he calls the “first step in Papal
 aggression” as early as St. Clement—that is, within
 a lifetime of the Crucifixion. Others may propose
 later dates; but no one with a pretence to elementary
@@ -1138,9 +1506,11 @@ Primacy of Rome than the Revolution of 1688 was
 the foundation of the House of Lords in England,
 or than Lincoln’s Presidential pronouncements during
 the Civil War were the foundation of the Presidency
-of the United States.
+of the United States.</p>
 
-But may it not be said that those who spoke for
+<p><span class="pagenum" id="Page_45">[Pg 45]</span></p>
+
+<p>But may it not be said that those who spoke for
 the Church as historians claimed the Donation to be
 authentic long after it had been questioned? Undoubtedly
 they did. And it would have been
@@ -1163,15 +1533,15 @@ misapprehension of historical fact. It is an excellent
 example of a universal truth present throughout
 all the history of the Church, that the Church
 brings reason to bear upon every problem, and
-regards reason in its own sphere as absolute.
+regards reason in its own sphere as absolute.</p>
 
-The first criticisms of the Donation are of the
-fifteenth century, coming from Peacock, Bishop of
+<p>The first criticisms of the Donation are of the
+<span class="pagenum" id="Page_46">[Pg 46]</span>fifteenth century, coming from Peacock, Bishop of
 Chichester, and Valla in Italy. They make no pretence
 to being heretical; they have no connection
 with any effort to destroy the unity of the Church;
 they are not particularly convincing—especially the
-latter.[2] What exploded the Donation of Constantine
+latter.&#x2060;<a id="FNanchor_2_2" href="#Footnote_2_2" class="fnanchor">[2]</a> What exploded the Donation of Constantine
 as an historical document was a much longer
 process of examination and criticism, which does
 not reach its final conclusions till the seventeenth
@@ -1189,7 +1559,7 @@ examining the problem in full liberty, and permitted
 to come to a right decision upon it. You
 have to-day, and you will have throughout the
 centuries to come, an indefinitely large body of men
-with the fullest historical confidence, great scholars
+<span class="pagenum" id="Page_47">[Pg 47]</span>with the fullest historical confidence, great scholars
 and experts in this particular point, who are fully
 convinced of the legendary character of the Donation,
 and yet to whose minds it is inconceivable (as
@@ -1197,9 +1567,9 @@ I confess it is to mine) that anyone should think the
 establishment of that historical detail a cause for
 doubt in the plain and most ancient doctrine of
 Roman supremacy with which it was for some six
-centuries out of twenty adventitiously connected.
+centuries out of twenty adventitiously connected.</p>
 
-Now for the Galileo case. It is so continually
+<p>Now for the Galileo case. It is so continually
 quoted, it is so much the accepted type of such
 things, that I might be tempted to go into it at
 greater length; on the contrary, I shall deal with it
@@ -1207,17 +1577,17 @@ more briefly, because the points at issue are as restricted
 as they are evident, and the complete misunderstanding
 upon which the accusation is based
 may be exposed by the most elementary statement
-of it.
+of it.</p>
 
-The accusation runs thus: “Galileo, having discovered
+<p>The accusation runs thus: “Galileo, having discovered
 by indubitable physical proof the motion
 of the earth, was condemned by the Catholic
 Church for stating the same, and her condemnation
 remained in force until the nineteenth century, when
-she was compelled to allow the matter to lapse.”
+she was compelled to allow the matter to lapse.”</p>
 
-That assertion, the commonest made in all this
-department of historical attack upon the Faith, contains
+<p>That assertion, the commonest made in all this
+<span class="pagenum" id="Page_48">[Pg 48]</span>department of historical attack upon the Faith, contains
 two elementary and decisive historical errors.
 First, the error that Galileo was condemned for
 teaching a then novel particular doctrine which he
@@ -1226,25 +1596,25 @@ condemned by authority of the Catholic Church
 upon a point of doctrine: that is, that the Catholic
 Church affirmed in the seventeenth century by her
 Infallible Authority as a point in doctrine that the
-earth did not move.
+earth did not move.</p>
 
-In point of fact, Galileo’s condemnation did not
+<p>In point of fact, Galileo’s condemnation did not
 turn upon his teaching a demonstrated truth, for it
 was not yet demonstrated. It did not turn upon a
 novel idea in Astronomy, but upon an hypothesis
 which was already hoary before Galileo was born;
 and the condemnation was not originated against
 the idea as an hypothesis, but against the teaching
-of it as an established fact. So much for point <i>one</i>.
+of it as an established fact. So much for point <i>one</i>.</p>
 
-Next, as to point <i>two</i>, the condemnation did not
+<p>Next, as to point <i>two</i>, the condemnation did not
 proceed from the Catholic Church. It proceeded
 from a particular disciplinary organ of the Catholic
 Church, with no authority whatsoever for finally
 establishing a point in doctrine. To confuse it with
 Catholic definition of doctrine would be like confusing
 the definition of a New York court of justice
-with an amendment to the Constitution. The Pope
+<span class="pagenum" id="Page_49">[Pg 49]</span>with an amendment to the Constitution. The Pope
 himself, as it happened, forbade what would have
 been a grave error—though not one binding the
 Church—I mean, a full definition of heresy by the
@@ -1259,18 +1629,18 @@ authorities of religion by querulous and bitter insult
 to support his own statements in court (nothing
 he brought forward at his trial came near to
 being conclusive on the motion of the earth, and
-much that he brought forward was fantastic),[3] and
+much that he brought forward was fantastic),&#x2060;<a id="FNanchor_3_3" href="#Footnote_3_3" class="fnanchor">[3]</a> and
 the action came at the end of an upheaval in which,
 by exactly this kind of irrational, angry attitude in
 graver matters, the unity of Christendom had been
 destroyed. No wonder the authorities had grown
 touchy. Moreover, as anyone may see who reads
-the trial (and as Huxley saw), Galileo could not
-prove his case. It was still only an hypothesis.
+<span class="pagenum" id="Page_50">[Pg 50]</span>the trial (and as Huxley saw), Galileo could not
+prove his case. It was still only an hypothesis.</p>
 
-The theory that the earth was not fixed, but
+<p>The theory that the earth was not fixed, but
 turning on its axis and moving round the sun, had
-not only been familiar (as I have said) to educated[4]
+not only been familiar (as I have said) to educated&#x2060;<a id="FNanchor_4_4" href="#Footnote_4_4" class="fnanchor">[4]</a>
 Europe from long before Galileo was born, but had
 been taught with clerical approval <i>as an hypothesis</i>
 in Catholic universities; it was taught again in such
@@ -1279,9 +1649,9 @@ accumulated, and became a commonplace of
 all teaching in Catholic schools and colleges long
 before the expunging of the Galilean treatise from
 the Index—always, and necessarily, a lengthy
-process.
+process.</p>
 
-The whole attack on the Church in connection
+<p>The whole attack on the Church in connection
 with Galileo turns upon these two misunderstandings,
 of which the first is unessential, but the second
 capital: First, that a proved scientific fact was at
@@ -1289,7 +1659,7 @@ issue; secondly, that this proved scientific fact was
 denied, because it was novel, and was denied by
 that authority which alone throughout the centuries
 had been held competent to establish points
-of doctrine, the Papacy and the councils of the
+<span class="pagenum" id="Page_51">[Pg 51]</span>of doctrine, the Papacy and the councils of the
 Church over which it spiritually presides. The first
 is wrong and the second is wrong. The Copernican
 theory was not novel in Galileo’s time; it was still
@@ -1298,9 +1668,9 @@ returning to the <i>oldest</i> conception (Pythagorean).
 He was not condemned by the Church, and the instance
 of his condemnation, such as it was, by the
 appointed committee, was his persistence in teaching
-as a proved fact what was still only hypothesis.
+as a proved fact what was still only hypothesis.</p>
 
-Before leaving this overemphasised historical detail,
+<p>Before leaving this overemphasised historical detail,
 I would like to make clear to the modern
 reader what our modern confused habit of mind
 often fails to grasp: the difference between teaching
@@ -1308,20 +1678,20 @@ a thing as demonstrated fact and teaching it as
 hypothesis, coupled with the difference between
 teaching demonstrated fact and teaching metaphysical
 or doctrinal conclusions supposedly, but erroneously,
-dependent upon that fact.
+dependent upon that fact.</p>
 
-For that purpose I will choose a debate familiar
+<p>For that purpose I will choose a debate familiar
 to all our contemporaries: the discussion on the
-origins of the human body.
+origins of the human body.</p>
 
-In the last eighty years a very large and increasing
+<p>In the last eighty years a very large and increasing
 body of evidence has been accumulated which
 points to the probability of the human body’s
-having come out of some original sub-human type,
+<span class="pagenum" id="Page_52">[Pg 52]</span>having come out of some original sub-human type,
 a sort of cousin to (though not descended from) the
-greater anthropoids of our own day.
+greater anthropoids of our own day.</p>
 
-It may be so. There is nothing in such an
+<p>It may be so. There is nothing in such an
 hypothesis against any Catholic doctrine. On the
 other hand, it is not proved. Still less is it proved
 that the process was of an inevitable sort unconnected
@@ -1329,24 +1699,24 @@ with divine Creative Will. Least of all is it
 proved—and indeed, it cannot be proved, for the
 thing is manifestly contradictory to our senses—that
 man as we know him is not a fixed type, utterly
-different in quality from the beasts.
+different in quality from the beasts.</p>
 
-Now this hypothesis is almost universally stated
+<p>Now this hypothesis is almost universally stated
 to-day as a demonstrated fact—which as yet it
 most certainly is not; indeed, the guesses at the
 process continue to change year by year, as anyone
 can see for himself by looking up the common
-manuals of forty, thirty, twenty and ten years ago.
+manuals of forty, thirty, twenty and ten years ago.</p>
 
-Further, there is quite commonly tacked on to
+<p>Further, there is quite commonly tacked on to
 it a second statement, that the so-called demonstrated
 fact disproves a cardinal Catholic doctrine,
-to wit, the Fall of Man.
+to wit, the Fall of Man.</p>
 
-Now then, supposing a professor avowedly subject
+<p>Now then, supposing a professor avowedly subject
 to the Catholic discipline, professing in a Catholic
 society, were to teach (1) that the descent of
-the human body was what the last of our many
+<span class="pagenum" id="Page_53">[Pg 53]</span>the human body was what the last of our many
 successive guesses presumes it to be, and were to
 teach that as now certain and indubitable fact,
 comparable to the fact of the rotundity of the
@@ -1363,16 +1733,16 @@ is sufficient to establish) that even if the hypothesis
 were already established by indubitable proof, it
 could not affect in any way the dogma of the Fall
 of Man: they are on different planes and concerned
-with totally different subjects.
+with totally different subjects.</p>
 
-The doctrine of the Fall of Man is a transcendental
+<p>The doctrine of the Fall of Man is a transcendental
 doctrine. It affirms that man in his completed
 nature was intended for a supernatural state,
 that his free-will rebelled against the will of God
 and that on this account his nature is <i>fallen</i> from
 a supernatural to a natural condition. To such a
 doctrine the discovery—if ever it should be made—as
-to <i>how</i> the body came to be is utterly indifferent.
+<span class="pagenum" id="Page_54">[Pg 54]</span>to <i>how</i> the body came to be is utterly indifferent.
 If I say, “Young Smith was right enough till he
 took to drinking,” it is no answer to tell me that
 Young Smith was once a baby who could not take
@@ -1381,56 +1751,56 @@ whole process was one of increase and maturing, a
 “progress,” and that <i>therefore</i> Young Smith <i>can’t</i>
 have taken to drink. That “can’t” is nonsensical.
 The process of becoming full grown is no bar to a
-moral fall.
+moral fall.</p>
 
-So much for the second of the moral arguments
+<p>So much for the second of the moral arguments
 drawn from History. Let me turn to the third:
 That the Church cannot be divine because it is
 highly organised, with defined dogmas, a hierarchy,
 a whole machinery of rites and laws, whereas a
 divinely inspired thing would remain free and
-simple.
+simple.</p>
 
-(c) <i>That the Church is organised, therefore not
-of divine character.</i>
+<p>(c) <i>That the Church is organised, therefore not
+of divine character.</i></p>
 
-This last or third point made against the Church
+<p>This last or third point made against the Church
 is one which haunts the greater part of modern
 minds with singular persistence. It is odd that it
 should do so; because, of all historical objections
 made to the Church, this is the least reasonable.
 But it is characteristic of the day in which we live
-that emotion should take the place of reason and
+<span class="pagenum" id="Page_55">[Pg 55]</span>that emotion should take the place of reason and
 a certain emotional bias towards an indefinite enthusiasm
-(as in music) is a modern disease.
+(as in music) is a modern disease.</p>
 
-The objection is that the Church is organised,
+<p>The objection is that the Church is organised,
 whereas whatever is of divine authority on earth
 must (so it is presumed) be of a vague, inspirational
 sort without organisation or framework—loose,
 attaching to the heart and imagination rather than
 to the intelligence. Such is the premise—and it is
-an enormity.
+an enormity.</p>
 
-For let it be supposed that there be upon earth
+<p>For let it be supposed that there be upon earth
 one particular defined Divine Authority—such is
 the Church’s claim—how would it necessarily act
-and be? What would of necessity be its structure?
+and be? What would of necessity be its structure?</p>
 
-The reply is no <i>positive</i> argument in favour of
+<p>The reply is no <i>positive</i> argument in favour of
 that claim, but it is a conclusive <i>negative</i> argument
 in proof of the contention that <i>if</i> such a claim be
 true, then organisation and, as time proceeded, more
 and more minute and detailed organisation, would
 be an absolutely inevitable condition of action by
-such an authority.
+such an authority.</p>
 
-For consider carefully what the implications of
-such an authority are?
+<p>For consider carefully what the implications of
+such an authority are?</p>
 
-Here we are on earth, possessed of certain general
+<p>Here we are on earth, possessed of certain general
 instincts of right and wrong—instincts commonly
-proceeding to very warped effects in action. We
+<span class="pagenum" id="Page_56">[Pg 56]</span>proceeding to very warped effects in action. We
 are surrounded by an infinity of varying circumstances;
 our lives are brief; our power of intercommunication
 between individual minds is limited.
@@ -1455,11 +1825,11 @@ continuous; must be corporate, in order to overcome
 the imperfect connection between individual
 minds; must tend to more and more complete definition
 in its character and being as time proceeds:
-for otherwise it would not have a human framework
+<span class="pagenum" id="Page_57">[Pg 57]</span>for otherwise it would not have a human framework
 consonant to the human world for which it
-would be designed.
+would be designed.</p>
 
-Leave men in doubt as to who is and who is not
+<p>Leave men in doubt as to who is and who is not
 a member of such a society; let it be uncertain by
 what tests membership may be recognised, acquired
 or lost, and the whole character and personality of
@@ -1476,16 +1846,16 @@ it certainly hierarchic, disciplined, bound in a strict
 framework: and still more certainly (if that be possible)
 it shows limitation or outline, a frontier, a
 boundary—whereby any man may test who is
-within and who is without the Church.
+within and who is without the Church.</p>
 
-And if this be true of structure, it is still more
+<p>And if this be true of structure, it is still more
 obviously true of doctrine. Granted that there be
 such a society with a claim to infallible pronouncement
 upon the things essential to the satisfaction of
-the human soul, how can it proceed save by exact
-definition of its pronouncements?
+<span class="pagenum" id="Page_58">[Pg 58]</span>the human soul, how can it proceed save by exact
+definition of its pronouncements?</p>
 
-Begin with the vague and general, though perhaps
+<p>Begin with the vague and general, though perhaps
 intense, conviction that the soul survives death.
 Regard it not as a product of affection or of habit.
 Accept the mere intuition. What then? Does it
@@ -1495,9 +1865,9 @@ is there between its survival and good or evil conduct
 in this life? If it does survive as a person, how
 can such survival hold of our personality, which,
 being human, is manifestly of this changeable and
-material world?
+material world?</p>
 
-If it be said that no answer can be given to these
+<p>If it be said that no answer can be given to these
 questions, then we deny the existence of such an
 authority as I here presume. I do not say that
 these questions and the replies to them are a proof
@@ -1506,20 +1876,20 @@ hypothesis that such an authority is to be found on
 earth, then necessarily it must of its very nature
 <i>define</i> doctrine upon such matters as these, pronouncement
 upon which is its whole reason for
-being.
+being.</p>
 
-As each controversy of importance arises some
+<p>As each controversy of importance arises some
 new definition will necessarily be demanded of the
-authority. Therefore, though doctrine itself does
+<span class="pagenum" id="Page_59">[Pg 59]</span>authority. Therefore, though doctrine itself does
 not grow—for it concerns truths outside time—definition
 of doctrine will grow. The time in
 which we live has so largely lost the habit of clear
 thought that I must here admit a digression in order
 to emphasise and put in the sharpest light the difference
 between the growth of <i>doctrine</i> and the growth
-of <i>definition</i>.
+of <i>definition</i>.</p>
 
-Whenever a new definition is given by the Church—e.g.,
+<p>Whenever a new definition is given by the Church—e.g.,
 the definition of Infallibility in 1870, the
 definition of Transubstantiation in 1215—confused
 thinkers, or men who have not read the proceedings,
@@ -1535,24 +1905,26 @@ Definition no more makes new doctrine than does
 a new treatise on geometry make new mathematical
 truth. Such matters are expounded and elucidated
 in increasing volume; they are not invented. So it
-is with the Faith.
+is with the Faith.</p>
 
-From this, turn to another consequence of this
+<p><span class="pagenum" id="Page_60">[Pg 60]</span></p>
+
+<p>From this, turn to another consequence of this
 objection to <i>organisation</i> in the Church: the objection
 that its machinery and instruments of action
 are continually unworthy, base, insufficient, affected
 by worldly motives, and that therefore the claim
-of the Church to be divine fails.
+of the Church to be divine fails.</p>
 
-That the Church being organised and being
+<p>That the Church being organised and being
 human will suffer from defects inherent to all
 organisation and to all humanity is equally certain.
 There will be bad administrators, wicked men in
 holy charges, abuse of powers. But that is no
 answer to the claim of the Church. For consider—what
-is the alternative?
+is the alternative?</p>
 
-Supposing there be upon earth a definite body of
+<p>Supposing there be upon earth a definite body of
 some kind—corporation, society, officer, what you
 will: a definable existent <i>Thing</i> whereto men may
 turn for ultimate and certain pronouncements upon
@@ -1561,11 +1933,11 @@ of man and his destiny). If that Thing, whatever
 form it were to be given, were <i>not</i> organised, then
 must affirmation clash with affirmation and whatever
 were common to all would divide into a mere
-vague mood.
+vague mood.</p>
 
-Now such a mood does not fulfill the requirements
+<p>Now such a mood does not fulfill the requirements
 of the <i>Thing</i> in question. You may indeed
-say (the vast majority of English-speaking people
+<span class="pagenum" id="Page_61">[Pg 61]</span>say (the vast majority of English-speaking people
 are saying it to-day) that true religion is of this
 vague kind; an instinctive aspiration to unity with
 the Divine Will; most would even put it lower still
@@ -1578,9 +1950,9 @@ warping of the only true living and direct religious
 impulse: and certainly if that original and vague
 religious impulse in man be the only true religion
 and if its value be in proportion to its vagueness,
-then organisation is a warping and a lessening of it.
+then organisation is a warping and a lessening of it.</p>
 
-But remember that in making this statement you
+<p>But remember that in making this statement you
 are denying at the outset the possibility of an
 authority and therefore contradicting the very affirmation
 you make of some certain common truth in
@@ -1589,17 +1961,17 @@ emotion (which changes in each individual
 and varies indefinitely among many individuals)
 must have a power of definition, must act with a
 function, and therefore must be organised in some
-degree.
+degree.</p>
 
-The choice is unavoidable between organisation
-in that which can speak with authority and the
+<p>The choice is unavoidable between organisation
+<span class="pagenum" id="Page_62">[Pg 62]</span>in that which can speak with authority and the
 rejection of all claim to authority—which is the
 rejection of all common or general certitude on
 matters not immediately and universally apparent.
 In plain words, either you must admit organisation
-in your religion or say that no religion is true.
+in your religion or say that no religion is true.</p>
 
-I would like to make this argument quite clear,
+<p>I would like to make this argument quite clear,
 because the great majority of our contemporaries,
 at least in the English-speaking world, fail to make
 acquaintance with it. I do not say organisation
@@ -1615,18 +1987,18 @@ other living thing. It will have a multitudinous
 co-ordination of detail in proportion to the exaltation
 of its status, for only thus can it be alive with
 the supremely conscious life of the highest
-organisms.
+organisms.</p>
 
-I say again, this is not an argument to the effect
+<p>I say again, this is not an argument to the effect
 that organisation is a witness to divinity in the
-Church. It is an argument to the effect that <i>if</i>
+<span class="pagenum" id="Page_63">[Pg 63]</span>Church. It is an argument to the effect that <i>if</i>
 divinity speaks through any society, <i>then</i> the oracle
 of truth will present all the phenomena of organisation;
 and so far from these phenomena clashing
 with the religious instinct, they alone can give that
-instinct its full working value.
+instinct its full working value.</p>
 
-In other words, you admit or you deny a Church.
+<p>In other words, you admit or you deny a Church.
 If you deny it, there is no certain source of truth
 present amid mankind; for the religious emotion
 of each man changes perpetually, and the emotions
@@ -1634,9 +2006,9 @@ of each among so many millions differ from those
 of his neighbour. But if there be a Church, then
 organisation must necessarily be the very test of its
 reality, as it is the test of all the higher forms of life
-we know.
+we know.</p>
 
-When, therefore, we Catholics meet, as we do
+<p>When, therefore, we Catholics meet, as we do
 daily and in a thousand forms, such objections as:
 “If this dogma were true, it would be universally
 apparent”; “If that doctrine were part of the universal
@@ -1646,7 +2018,7 @@ functions and even dressed in a peculiar manner of
 their own”; “This elaborate definition of the Real
 Presence jars with true devotion to the Eucharist,
 which is a thing of the heart and a mystery beyond
-analysis,” and so forth, in a myriad different forms
+<span class="pagenum" id="Page_64">[Pg 64]</span>analysis,” and so forth, in a myriad different forms
 of objection, we reply: “If, of mysteries such as the
 Eucharist or the continued life of man after death,
 or of the more familiar mysteries of personality, of
@@ -1663,32 +2035,32 @@ the bread remains, or does not remain, after consecration.
 Otherwise two members of a society existing
 to teach true doctrine will, on a fundamental
 and essential doctrine, be holding two contrary
-views, one of which at least must be false.”
+views, one of which at least must be false.”</p>
 
-It would be easy to point to any number of other
+<p>It would be easy to point to any number of other
 cases of more interest to the average modern man
 than the case of the Eucharist, in which he has lost
 all communion; for instance, to the mystery of
 immortality, and the discipline rather than the doctrine
 of our attitude towards the dead. Two members
 of this society claiming infallibility are faced
-with the practice of necromancy, the calling up of
+<span class="pagenum" id="Page_65">[Pg 65]</span>with the practice of necromancy, the calling up of
 the dead (a favourite pastime of our day among the
 wealthy). The one feels in the strongest fashion
 that in this exercise he is upon the confines of positive
 evil. He smells the Pit. The other is convinced
 that it is indeed the blessed dead who visit
-him and with whom he is in communion.
+him and with whom he is in communion.</p>
 
-Which is right? The infallible authority cannot
+<p>Which is right? The infallible authority cannot
 abdicate in such a crux without denying its own
 claim. There is no reconciliation of such a contradiction:
 it is Hell or Heaven. It must define and
 it does define; and we know on which side its
 definition lies. Necromancy—or Spiritualism as its
-modern name goes—is of Hell.
+modern name goes—is of Hell.</p>
 
-In general, then, the moral arguments against
+<p>In general, then, the moral arguments against
 the Church as drawn from History—that is, from
 the record of its action—fail from one of two
 causes: either they misconceive the nature of the
@@ -1699,26 +2071,26 @@ of religion, not perceiving that, if you are to
 admit any criterion of truth other than that of
 common experience, you must admit external
 authority; and that, once you admit an external
-authority in the final and all important questions,
-you admit a Church.
+<span class="pagenum" id="Page_66">[Pg 66]</span>authority in the final and all important questions,
+you admit a Church.</p>
 
-Such considerations do not establish the claim of
+<p>Such considerations do not establish the claim of
 the Catholic Church, but they destroy certain particular
 objections to that claim, drawn from the
 supposed clash between the moral character of the
 Church’s claim and the historical record of the
-Church making such a claim.
+Church making such a claim.</p>
 
-From these I turn to what I have called the major
+<p>From these I turn to what I have called the major
 objection of modern times: the intellectual objection;
 the objection that History shows the structure
 of the Catholic Church to have proceeded from
-man.
+man.</p>
 
 
-II. <sc>The Major or Intellectual Argument</sc>
+<p>II. <span class="smcap">The Major or Intellectual Argument</span></p>
 
-The last and much the most important division
+<p>The last and much the most important division
 of the arguments based upon History against the
 Catholic claim is, in general, the argument that the
 Church cannot be the divine thing it claims to be
@@ -1727,10 +2099,10 @@ it is in its essence, and can be proved by History to
 be, of human institution, betraying all those characteristic
 illusions which man conjures up and imposes
 upon himself in all his efforts to reach out
-to the unknowable and unattainable of his desire.
+to the unknowable and unattainable of his desire.</p>
 
-This—by far the most serious historical form of
-attack upon the Faith—falls into two distinct
+<p>This—by far the most serious historical form of
+<span class="pagenum" id="Page_67">[Pg 67]</span>attack upon the Faith—falls into two distinct
 branches, which I will call for the sake of brevity
 (without pretence to the full accuracy of the terms
 and certainly with no intention of using them
@@ -1746,47 +2118,49 @@ that there ever has been a divine Church at all, or
 any clear revelation of divine things to men at any
 time or in however simple a form, and proposes
 to prove that all the doctrine of the Church is of
-man’s own making.
+man’s own making.</p>
 
-These two I will take successively, maintaining
+<p>These two I will take successively, maintaining
 the order I have throughout, to wit, attending to
 the least important before approaching the more
-important.
+important.</p>
 
-I take it that in the times in which we live the
+<p>I take it that in the times in which we live the
 Protestant objection, even in its vaguest form, is the
 less formidable. I shall take it first. I shall conclude
 with what is, in my own judgment, far the
-most formidable attack at this moment, and likely
+<span class="pagenum" id="Page_68">[Pg 68]</span>most formidable attack at this moment, and likely
 to become still more formidable in the near future,
 the Pagan or purely Sceptical attack: the argument
 from History that <i>all</i> religion is man-made, that
 the Catholic Church must be included in the category
 of man-made things, and that therefore the
-Catholic Church has no claim to Divine Authority.
+Catholic Church has no claim to Divine Authority.</p>
 
 
-(a) <i>The Protestant argument from History.</i>
+<p>(a) <i>The Protestant argument from History.</i></p>
 
-Throughout the story of the Catholic Church,
-i.e. during all the last nineteen hundred years,[5]
+<p>Throughout the story of the Catholic Church,
+i.e. during all the last nineteen hundred years,&#x2060;<a id="FNanchor_5_5" href="#Footnote_5_5" class="fnanchor">[5]</a>
 there have continued recurrent protests against this
 or that doctrine: recurrent affirmations that some
 other doctrine, contrary to the authoritative definition,
 is true, and that the authoritative definition
 is itself false. From these denials and affirmations
 have proceeded what are called, in Catholic terminology,
-the various heresies.
+the various heresies.</p>
 
-But towards the end of the Middle Ages these
+<p>But towards the end of the Middle Ages these
 protests gathered together in a new form, which
 was essentially an appeal to History, and to their
 general character was applied the term “Protestant.”
 We need not quarrel over the term or its derivation.
 It has been, by universal agreement, applied during
-the last four hundred years.
+the last four hundred years.</p>
 
-The Protestant challenge to the Catholic Faith is
+<p><span class="pagenum" id="Page_69">[Pg 69]</span></p>
+
+<p>The Protestant challenge to the Catholic Faith is
 essentially a challenge based upon History. It proposes
 to show by historical evidence that whereas
 there was some original body of true revelation, this
@@ -1794,9 +2168,9 @@ has been distorted, corrupted and overlaid, and that
 the Catholic Church with its perpetual accretions
 of doctrine, ritual and office is more and more
 divergent from, or even contrary to, the divine
-original thus presupposed.
+original thus presupposed.</p>
 
-The Protestant argument still exists even when
+<p>The Protestant argument still exists even when
 it is put in its most vague and tenuous modern
 form. Even those who say, as do so many to-day
 (believing themselves to be pure sceptics), “I accept
@@ -1804,12 +2178,12 @@ the mission of Jesus Christ as salutary to mankind
 and as containing eternal verities, which it is essential
 that man for his good should know; but I
 reject all supernatural statements in connection with
-this mission,” are still essentially Protestants.[6] They
-presuppose some original nucleus, however restricted
+this mission,” are still essentially Protestants.&#x2060;<a id="FNanchor_6_6" href="#Footnote_6_6" class="fnanchor">[6]</a> They
+<span class="pagenum" id="Page_70">[Pg 70]</span>presuppose some original nucleus, however restricted
 on content and in time, which they postulate
-as good and true.
+as good and true.</p>
 
-The most extreme case—and to-day the most
+<p>The most extreme case—and to-day the most
 common one—the case of the man who says he
 takes the four canonical Gospels, and these alone;
 that he rejects Pauline theology as a corruption, a
@@ -1826,18 +2200,18 @@ he is saying that they are true. His quarrel is not
 with the whole Catholic scheme, but with everything
 in the Catholic scheme beyond what he has
 chosen for himself out of the mass of Catholic
-teaching.[7]
+teaching.&#x2060;<a id="FNanchor_7_7" href="#Footnote_7_7" class="fnanchor">[7]</a></p>
 
-Now let us put down at the beginning of the
+<p>Now let us put down at the beginning of the
 debate one common element upon which all should
 be agreed: there <i>has</i> been development; and in so
-far as development involves change, there has been
+<span class="pagenum" id="Page_71">[Pg 71]</span>far as development involves change, there has been
 in that sense, and in that alone, change. What is
 more, the development continues, and in so far as
 the word “change” may be applied to development,
-change continues.[8]
+change continues.&#x2060;<a id="FNanchor_8_8" href="#Footnote_8_8" class="fnanchor">[8]</a></p>
 
-The definitions of the Council of Trent are immensely
+<p>The definitions of the Council of Trent are immensely
 more elaborate than the Apostles’ Creed;
 the Apostles’ Creed (probably dating from the
 earliest origins of the Church though it does, and
@@ -1852,7 +2226,7 @@ of the Roman Mass (to take but one form) which
 began as voluntary or optional prayers and which
 became incorporated in the regular structure of the
 Sacrifice. One might even say that certain slight
-additions of quite recent origin may, in the near
+<span class="pagenum" id="Page_72">[Pg 72]</span>additions of quite recent origin may, in the near
 future, follow the same course. The bishop, the
 priest and the deacon of the original Church formed
 a far simpler body than does the vast organisation
@@ -1866,20 +2240,20 @@ ground upon which both must proceed. Where
 they differ is upon the point whether or no such
 development has introduced a fundamental change
 of character into the Catholic Church with the
-passage of the centuries.
+passage of the centuries.</p>
 
-A parallel will explain what I mean. Two men
+<p>A parallel will explain what I mean. Two men
 observe a tree. One says, “It is an oak, in full vigour”;
 the other says, “No, it was of oaken origin,
 but there has been grafted upon it another growth
 and the whole is thus not only warped and transformed,
-but in my eyes diseased. It is not an oak.”
+but in my eyes diseased. It is not an oak.”</p>
 
-The first man, who says, “It is a living oak
+<p>The first man, who says, “It is a living oak
 consonant in all its parts,” does not deny that the
 acorn is different from the mature tree: the young
 sapling different in form from either the original
-acorn or the tree as it now appears. He does not
+<span class="pagenum" id="Page_73">[Pg 73]</span>acorn or the tree as it now appears. He does not
 deny that in a hundred years the form of the tree
 will seem to have changed still more; that in the
 fifty years past it has changed. What he denies is
@@ -1888,14 +2262,14 @@ oak is an oak. It is essentially the thing which it
 has always been. That is his contention. Its
 growth is normal to its nature, and in so far as
 growth involves change, such change is the very
-proof of identity.
+proof of identity.</p>
 
-His opponent denies this. He says it was an
+<p>His opponent denies this. He says it was an
 oak once, long ago, but other plants grafted on it
 have so changed its nature that it can be called an
-oak no longer.
+oak no longer.</p>
 
-The appeal of the one is not to a supposed dead
+<p>The appeal of the one is not to a supposed dead
 mechanical rigidity; it is not an affirmation that he
 has before him an acorn rather than an oak; it is
 to that principle of one-ness by which any thing is
@@ -1906,13 +2280,13 @@ essential unity in the developing thing); it is rather
 to the proposition that the changes were of a disfiguring
 and (to borrow a foreign word) “denaturing”
 kind. The one says, “Here is the same original
-organism, in full health and strength, growing and
+<span class="pagenum" id="Page_74">[Pg 74]</span>organism, in full health and strength, growing and
 vigorous before our eyes.” The other says, “These
 changes, which I can substantiate by the consultation
 of old pictures and written records of the
-thing, are a proof of disease and of corruption.”
+thing, are a proof of disease and of corruption.”</p>
 
-It is therefore quite beside the mark for the opponents,
+<p>It is therefore quite beside the mark for the opponents,
 upon historical grounds, of some particular
 institution essential to the Catholic Church—for
 instance, the Primacy of Peter—to prove by
@@ -1931,19 +2305,21 @@ salutary phenomenon of life and a very proof of
 unity in character and time: the other, as a phenomenon
 opposed to the true life of the thing and
 a proof of its loss of identity with its original principle
-of life.
+of life.</p>
 
-Now in my view there are two tests which one
+<p><span class="pagenum" id="Page_75">[Pg 75]</span></p>
+
+<p>Now in my view there are two tests which one
 may apply to what I have called the Protestant
 argument from History: two tests by which one
 may discover that it rings false. And these I would
-tabulate as follows:
+tabulate as follows:</p>
 
-(1) The test of Innovation.
+<p>(1) The test of Innovation.</p>
 
-(2) The test of Critical Date.
+<p>(2) The test of Critical Date.</p>
 
-By the test of Innovation I mean an historical
+<p>By the test of Innovation I mean an historical
 examination to discover whether orthodox doctrine—not
 points doubtful or still controversial within
 the Catholic body, but defined truth—as propounded
@@ -1960,19 +2336,19 @@ consistent with its own essence, and the
 successive definitions have all been in the line of
 tradition. But if the opposing view be established,
 then indeed corruption and error and therefore the
-absence of her Infallible Authority have been
-proved.
+<span class="pagenum" id="Page_76">[Pg 76]</span>absence of her Infallible Authority have been
+proved.</p>
 
-As to what I have called the test of Critical Date,
+<p>As to what I have called the test of Critical Date,
 I mean (what should be surely an obvious truth)
 that if the story has been a process of warping and
 corruption, there should be some discoverable stage
 at which this deflection began, and if the fixing of
 this stage be not only doubtful, but disputed in
 a hundred forms and set at widely separated epochs,
-differing by centuries, then the objection is ill-founded.
+differing by centuries, then the objection is ill-founded.</p>
 
-I would not be so pedantic and at the same time
+<p>I would not be so pedantic and at the same time
 so logically weak as to demand of my opponent the
 fixing of a particular instant in which he discovers
 error originating. All such things, whether true
@@ -1983,25 +2359,27 @@ of corruption has taken place in this or
 that—for example, the doctrine of the Eucharist—its
 inception must be observable within at least a
 certain range of years, a generation at the most.
-Such is the test of Critical Date.
+Such is the test of Critical Date.</p>
 
-I will now examine the matter by both these
-tests: Innovation and Critical Date.
+<p>I will now examine the matter by both these
+tests: Innovation and Critical Date.</p>
 
-(1) As to the first test, it is historically true—and
+<p><span class="pagenum" id="Page_77">[Pg 77]</span></p>
+
+<p>(1) As to the first test, it is historically true—and
 once again, a very strange thing—that in every
 single case it is the protest against orthodoxy which
 has had the character of an innovation, and never
 the orthodox affirmation which has appeared as a
-novelty.
+novelty.</p>
 
-I will explain in a moment how an attempt
+<p>I will explain in a moment how an attempt
 might be made by our opponents to get over even
 this difficulty; but at any rate, as far as plain History
 is concerned, that remarkable fact which I have just
-stated is true.
+stated is true.</p>
 
-You may take the whole list, from Cerinthus,
+<p>You may take the whole list, from Cerinthus,
 who was a contemporary of the Apostles, down to
 Brigham Young and his Mormons, or to the latest
 Modernist, and you find in every case without exception
@@ -2015,7 +2393,7 @@ or to which he appeals. His doctrine comes as a
 appeal of novelty. There is not any one case in the
 long story of the Church where we can trace a
 steady protest against <i>any</i> one of her fundamental
-doctrines, a protest appearing at the origins and
+<span class="pagenum" id="Page_78">[Pg 78]</span>doctrines, a protest appearing at the origins and
 increasing as the doctrine is more and more clearly
 defined. Nor is there any one case of a definition
 of orthodox doctrine appearing suddenly and with
@@ -2025,9 +2403,9 @@ the old original truth, long overlaid, but my point
 is that, when he and his doctrine appear, it is <i>they</i>—not
 the things they oppose—which invariably
 appear as sharp and, to most men, offensive
-novelties.
+novelties.</p>
 
-I have called that phenomenon in the story of
+<p>I have called that phenomenon in the story of
 the Catholic Church remarkable; it is even startling.
 I know of no other society to which this aspect of
 reform or re-action applies. If you will consider
@@ -2035,24 +2413,24 @@ for a moment the psychology of the affair, judging
 it by your personal knowledge of the way in which
 your own mind works, and the minds of the men
 about you, you will, I think, perceive its unique
-character.
+character.</p>
 
-After all, what happens in our minds with regard
+<p>After all, what happens in our minds with regard
 to any form of degradation? For instance,
 what happens to-day with regard to a misquotation
-in literature or a warping of function in politics?
+in literature or a warping of function in politics?</p>
 
-The first misquotation takes place, and is challenged.
-The bad habit grows, but it is still
+<p>The first misquotation takes place, and is challenged.
+<span class="pagenum" id="Page_79">[Pg 79]</span>The bad habit grows, but it is still
 challenged here and there: the challenge is maintained.
 Each time it is challenged the error is
 admitted, but unfortunately spreads. Sometimes
 there comes at the end of the process a violent
 re-action; literary men swarm together (as it were)
 and insist upon the misquotation being driven out;
-and sometimes they succeed.
+and sometimes they succeed.</p>
 
-Or again, as to the warping of a political institution.
+<p>Or again, as to the warping of a political institution.
 Representative institutions were founded
 to be representative. People soon find out that they
 are only imperfectly representative: that they tend
@@ -2064,21 +2442,21 @@ attempts at reform. Sometimes the reform
 makes good, the fear of God is put into the politicians,
 and the representative institution is purged
 and brought up with a round turn, and compelled
-to do its duty.
+to do its duty.</p>
 
-You may take the whole range of human action
+<p>You may take the whole range of human action
 in this respect, and you will invariably find a
 process of this kind. It is common sense. Men do
 not allow their conception of a thing to be deflected
-by falsehood or laziness or illusion without sharply
+<span class="pagenum" id="Page_80">[Pg 80]</span>by falsehood or laziness or illusion without sharply
 re-acting against that deflection. All History is full
 of the corruption of institutions—and of men; but
 all History is most emphatically <i>not full</i>—in fact,
 in all History you will not find an example—of the
 corruption taking place without its being noted and
-resisted.
+resisted.</p>
 
-Now here, in the case of Catholic doctrine, you
+<p>Now here, in the case of Catholic doctrine, you
 have the singular fact that the process is the other
 way about. There is no protest till after the doctrine
 has become fixed. Take the case of the doctrine
@@ -2091,13 +2469,13 @@ witness who had known Our Lord on earth, which
 Cerinthus never had. That is no proof that the
 doctrine is true; but it is proof of the historic fact
 that Apostolic society believed in the doctrine and
-that the first heresy in the matter was an innovation.
+that the first heresy in the matter was an innovation.</p>
 
-Or take the doctrine of the Eucharist. For centuries
+<p>Or take the doctrine of the Eucharist. For centuries
 the Real Presence was accepted; in general
 terms, it is true, but accepted none the less. You
 get it unmistakably from the Words of Institution
-right on for a thousand years. You can argue
+<span class="pagenum" id="Page_81">[Pg 81]</span>right on for a thousand years. You can argue
 against the <i>intention</i> of the early statements based
 upon the words of institution. You can say that
 those who first alluded to the Eucharist did not
@@ -2121,14 +2499,14 @@ West. It remains true that you can find no resistance
 against this universal attitude. Though there
 is metaphysical discussion, there is not a case of a
 man saying, “The original doctrine was not that of
-Real Presence: such doctrine is a corruption only
-just introduced, and I protest against it.”
+<span class="pagenum" id="Page_82">[Pg 82]</span>Real Presence: such doctrine is a corruption only
+just introduced, and I protest against it.”</p>
 
-When the protest comes it is after thirty generations,
+<p>When the protest comes it is after thirty generations,
 at the end of the Dark Ages; and it produces
-a violent effect of innovation, of novelty.
+a violent effect of innovation, of novelty.</p>
 
-I submit that no matter what particular defined
+<p>I submit that no matter what particular defined
 doctrine in the Catholic scheme you may select, you
 will find without exception this most notable character
 attaching to it, that when denial of it was
@@ -2138,9 +2516,9 @@ when Nestorius denied the divine motherhood of
 Our Lady—it had the effect of a stone thrown at a
 pane of glass and breaking it: the startling effect of
 a shock; of something quite unexpected and exceedingly
-and unpleasantly new.
+and unpleasantly new.</p>
 
-I myself who am writing this did, when I was a
+<p>I myself who am writing this did, when I was a
 young man and very imperfectly instructed, take
 for granted the opposite. I thought, for instance,
 that the doctrine of the Trinity had very slowly
@@ -2149,7 +2527,7 @@ divinity was gradually dispelled by the development
 of the doctrine; that the earlier the evidence
 was, the less it would confirm the doctrine; and
 that Arius was fighting a sort of rear-guard action:
-defending a cause which had once been vigorous
+<span class="pagenum" id="Page_83">[Pg 83]</span>defending a cause which had once been vigorous
 but was lapsing through the process of time. I
 thought that; and I fancy most ordinary educated
 men who have not had the leisure or desire to read
@@ -2164,9 +2542,9 @@ and illusion such as creates the innumerable
 legends and myths of mankind: first the teacher is
 a revered men, then vaguely thought to have something
 in him of the divine, then to be some sort of
-divine being, and, lastly, a God.
+divine being, and, lastly, a God.</p>
 
-It was when I came to read the evidence and look
+<p>It was when I came to read the evidence and look
 closely into the matter for myself that I began to
 feel the surprise which I record here and which any
 one of my readers will also feel if he will read the
@@ -2174,10 +2552,10 @@ actual evidence instead of guessing at what sounds
 most probable. The evidence is clear that the
 Trinitarian doctrine, growing in definition, was
 never put forward with novel and protested accretions.
-It was the Arian challenge which was new
-and immediately resisted.
+<span class="pagenum" id="Page_84">[Pg 84]</span>It was the Arian challenge which was new
+and immediately resisted.</p>
 
-It is the same with the mystery of the sacrament.
+<p>It is the same with the mystery of the sacrament.
 Let anyone who believes the doctrine of the Real
 Presence in the Eucharist to have grown up very
 gradually as a sort of legend or myth, an accretion
@@ -2200,17 +2578,17 @@ that the historical process with regard to the doctrine
 is not that of corruption and essential change
 which our opponents have presumed it to be. It is
 a proof that, true or false, the mystery of the sacrament
-now held was originally held, and that the
+<span class="pagenum" id="Page_85">[Pg 85]</span>now held was originally held, and that the
 attack upon this doctrine, as upon any other, came
-as a novelty.
+as a novelty.</p>
 
-I have said that even this phenomenon, unparalleled
+<p>I have said that even this phenomenon, unparalleled
 as it is in the tale of human thought, was
 capable of explanation by an opponent. But I
 think if we examine that explanation we shall find
-it to fail.
+it to fail.</p>
 
-The explanation is as follows: You are dealing
+<p>The explanation is as follows: You are dealing
 with a body of fervid believers. As time proceeds
 the excesses, the delusions, the vagaries, proceeding
 from their very enthusiasm, permeate their body
@@ -2227,11 +2605,11 @@ supposed to have appeared in some miraculous
 fashion without human workmanship. And if it
 be true of abuses which are recognised to be abuses
 by all, why should it not be true of fundamental
-doctrines, considering the blind fervour of which
+<span class="pagenum" id="Page_86">[Pg 86]</span>doctrines, considering the blind fervour of which
 I have spoken and the natural consequences of such
-fervour?
+fervour?</p>
 
-My answer to that explanation is that the cases
+<p>My answer to that explanation is that the cases
 are not sufficiently numerous to establish a rule. It
 is true that you do get some few cases, very few, of
 abuses which proceed some way before they are
@@ -2240,28 +2618,28 @@ being pulled up, nor are they so general and manifold
 as to militate against our judgment that, almost
 in proportion to its importance, the doctrine or
 mystery, when it is challenged, is challenged by a
-new force.
+new force.</p>
 
-Moreover, there is this consideration. In the few
+<p>Moreover, there is this consideration. In the few
 cases where there is the analogy of an admitted
 abuse somewhat tardily reformed, all in the Church
 ultimately accept the reform. But this is not at all
 the case with regard to the main orthodox doctrine—quite
-the other way.
+the other way.</p>
 
-In every historical case of abuse, whether it be
+<p>In every historical case of abuse, whether it be
 the erroneous acceptation of a false document (as in
 the case of the Donation) or an abuse of excess, as
 in the case of the exaggeration of image worship,
 the traditional forces of this Sacred Society admit
 the moral or clerical error, and usually they begin
-to admit it in increasing numbers from the moment
+<span class="pagenum" id="Page_87">[Pg 87]</span>to admit it in increasing numbers from the moment
 of the first challenge. But in the case of orthodox
 doctrine it is not so. It is just the contrary. It is
 the doctrine that stands and the heresy which gradually
-dies out.
+dies out.</p>
 
-Of specific heresies which have attempted to
+<p>Of specific heresies which have attempted to
 maintain but a part of truth while rejecting the
 rest, all without exception have gone through a
 process of rapid growth, culmination and decay,
@@ -2277,18 +2655,20 @@ affirmation, is as natural to man as breathing,
 for faith is of grace and is exceptional to Nature.
 But the heresies, as distinguished from such general
 rationalist denial, never have in them the vitality
-which continues to urge orthodox tradition.
+which continues to urge orthodox tradition.</p>
 
-That is historical fact; and it is an historical fact
+<p>That is historical fact; and it is an historical fact
 which should give every man who is seriously
-examining these things grave food for thought.
+examining these things grave food for thought.</p>
 
-Take the example which is most familiar to the
+<p><span class="pagenum" id="Page_88">[Pg 88]</span></p>
+
+<p>Take the example which is most familiar to the
 older members of the present generation in English-speaking
 countries other than Ireland: I mean, the
-attitude towards Holy Writ.
+attitude towards Holy Writ.</p>
 
-Here heresy began by setting up the literal interpretation
+<p>Here heresy began by setting up the literal interpretation
 of Scripture (and the personal judgment
 of the reader upon it) in opposition to the authority
 of the Catholic Church. The Catholic tradition
@@ -2297,35 +2677,35 @@ of God; but (2) given us not as a record of science,
 or even History, so much as a witness to the Church
 and particularly to the Incarnation; and (3) was
 only to be accepted in the sense which the authority
-of the Catholic Church admitted.
+of the Catholic Church admitted.</p>
 
-As against that ancient Catholic attitude towards
+<p>As against that ancient Catholic attitude towards
 the Bible came, as a novelty, the fierce affirmation of
 its absolute and literal authority and of its being
-plainly interpretable for himself by every reader.
+plainly interpretable for himself by every reader.</p>
 
-We are all witnesses to what has happened in
-that particular example.
+<p>We are all witnesses to what has happened in
+that particular example.</p>
 
-The heresy, after nearly three hundred years of
+<p>The heresy, after nearly three hundred years of
 vigour, has gone to pieces. The Bible outside the
 Catholic Church has lost authority. The original
 Catholic position remains. Indeed, there is a comic
 irony in noting that it is we Catholics to-day who
-are thought old-fashioned in maintaining our
+<span class="pagenum" id="Page_89">[Pg 89]</span>are thought old-fashioned in maintaining our
 respect for the text of Scripture and in being slow
 to admit all the modern guess-work in derogation
-of it. So much for the test of Innovation.
+of it. So much for the test of Innovation.</p>
 
-(2) I turn to the second test, the test of Critical
-Date.
+<p>(2) I turn to the second test, the test of Critical
+Date.</p>
 
-If it be true that the Catholic Church is the
+<p>If it be true that the Catholic Church is the
 warping and corruption of an originally delivered
 truth, then that warping and corruption must have
-had an origin.
+had an origin.</p>
 
-I am walking by night along a road which is
+<p>I am walking by night along a road which is
 laid out upon the map for miles due east and west;
 but after so walking for some time I begin to notice
 by the stars that the road is bending. It turns
@@ -2339,10 +2719,10 @@ this point it was dead straight, pointing west.
 After this point (say, as much as a mile further on)
 it is clearly bending south of west, and I find it
 bending more and more southward as I proceed.”
-If not a point at least a section of flexion can be
-established.
+<span class="pagenum" id="Page_90">[Pg 90]</span>If not a point at least a section of flexion can be
+established.</p>
 
-Now there is this remarkable historical fact
+<p>Now there is this remarkable historical fact
 about the process of the Catholic Church—that its
 Protestant opponents, all agreeing in its loss of
 direction, cannot agree as to when that loss began.
@@ -2365,7 +2745,7 @@ of the Middle Ages—what is called the “Hildebrandine
 Movement” of 1050–85. Until then
 Christendom was proceeding in consonance with its
 tradition. The see of Peter had Primacy indeed,
-but had not developed a highly detailed jurisdiction
+<span class="pagenum" id="Page_91">[Pg 91]</span>but had not developed a highly detailed jurisdiction
 over a vast number of personal and national affairs.
 The discipline of celibacy among the clergy in the
 West (so they tell us) had been optional; its universal
@@ -2390,7 +2770,7 @@ Church was never more the same. For some few
 of my own acquaintance the dreadful moment is
 1870; the right way was lost with the definition of
 the Infallibility of the Pope. For others again it
-is the thirteenth century, with its developing organisation
+<span class="pagenum" id="Page_92">[Pg 92]</span>is the thirteenth century, with its developing organisation
 for the repression of heresy and its too strict
 definition of the sacrament. For a very great body
 of men in the immediate past (now a smaller
@@ -2398,9 +2778,9 @@ number) things began to go wrong with the freedom
 of the Church under Constantine. Then did
 lay and state corruptions, imitations or influences
 of the old Pagan society, begin to thwart the divine
-scheme.
+scheme.</p>
 
-The most popular of the latest Protestant theories
+<p>The most popular of the latest Protestant theories
 is that the thing went wrong almost at once
 between Pentecost and the predication of St. Paul,
 and that St. Paul was the author of the evil transformation
@@ -2416,12 +2796,12 @@ already there was trouble beginning, as revealed in
 the authentic epistles of St. Ignatius; and manifestly
 things were becoming Catholic (and therefore corrupt)
 by the time of the African Martyre, and were
-hopeless by the time of the Thirty Tyrants. For
+<span class="pagenum" id="Page_93">[Pg 93]</span>hopeless by the time of the Thirty Tyrants. For
 these scholars the Catholic taint is the natural
 accompaniment of the decline of civilisation after
-the Antonines.
+the Antonines.</p>
 
-Now I am not saying that because there is dispute
+<p>Now I am not saying that because there is dispute
 upon the moment of flexion in any directive
 scheme, because there are debate and diverse opinion
 upon the point where an upright original began to
@@ -2429,9 +2809,9 @@ go wrong, that therefore one may conclude it never
 did go wrong. But I am free to maintain that such
 enormous disparities of opinion, and such a ceaseless
 shifting of it, would be impossible if a plain
-historical process were at work.
+historical process were at work.</p>
 
-When we consider, for instance, the popular
+<p>When we consider, for instance, the popular
 monarchy of the English, that is, the government
 of England by a king, aided indeed by other powers,
 but having in his own hand the main force of the
@@ -2443,7 +2823,7 @@ governs at all but is the neutral chief of society. I
 myself should put it as early as the reign of
 Edward VI, and I should say it had become marked
 under the elder Cecil at the beginning of Elizabeth’s
-reign. It is more usual to say that the great
+<span class="pagenum" id="Page_94">[Pg 94]</span>reign. It is more usual to say that the great
 change came under Charles I, and certainly it was
 clinched by the civil wars. There are even perhaps
 some who maintain that monarchy was still
@@ -2453,9 +2833,9 @@ any rate it lies within these two lifetimes—1550 to
 1690. No one will deny that the process had begun
 in the latter half of the sixteenth century; no
 one will deny that it was thoroughly accomplished
-before the end of the seventeenth.
+before the end of the seventeenth.</p>
 
-It is so with all other historical phenomena of
+<p>It is so with all other historical phenomena of
 the kind. You can put within the limits of a lifetime,
 and not a very long lifetime, the transformation
 and decline of the Roman Empire during the
@@ -2469,35 +2849,35 @@ true; not that you can always put your finger upon
 a particular year or event, let alone a particular
 moment, but that you can say, “Within this comparatively
 narrow limit of time the change takes
-place, certainly the institution was living within its
+<span class="pagenum" id="Page_95">[Pg 95]</span>place, certainly the institution was living within its
 traditions and in the direction determined by its
 originals as late as such and such a moment; certainly
 after such and such a moment, not long subsequent,
 it is as clearly failing to keep that original
-direction.”
+direction.”</p>
 
-But here, in the case of the Catholic Church, her
+<p>But here, in the case of the Catholic Church, her
 opponents can say nothing of the kind. If they
 could, not only would scholarship be roughly
 agreed among our opponents as to the Critical Date,
 but we ourselves should at last be agreed, as we are
 agreed with regard to attack upon abuses, in the
 long run—though never with regard to the attack
-on doctrine.
+on doctrine.</p>
 
-But there is no such agreement, and can be none;
+<p>But there is no such agreement, and can be none;
 for the simple reason that the Catholic Church has
 not thus warped or veered but has remained herself.
 So by this second test I conclude that the
-historical objection is false.
+historical objection is false.</p>
 
-It seems to me that an impersonal observer, say
+<p>It seems to me that an impersonal observer, say
 some historical student from the extreme Orient, to
 whom the whole Catholic scheme was indifferent
 and who cared nothing whether the original institution
 of the Catholic Church had failed (because
 he had no affection for that institution and no belief
-in any of its doctrines nor any respect for Jesus
+<span class="pagenum" id="Page_96">[Pg 96]</span>in any of its doctrines nor any respect for Jesus
 Christ nor any attachment to the idea even of a personal
 God)—it seems to me, I say, that such a
 wholly neutral observer would, upon the general
@@ -2522,36 +2902,36 @@ reference to the truth or falsehood of the Church’s
 claim will conclude that that claim has been continuous
 from the beginning, and that the Thing
 to-day is essentially what it was when the strict
-organisation, the unique phenomenon, appeared in
+<span class="pagenum" id="Page_97">[Pg 97]</span>organisation, the unique phenomenon, appeared in
 Syria under the principate of Tiberius. There is
 nothing left contemporary with that still vigorous,
 still well-favoured, ancient Thing. It has seen the
 disappearance of everything in Europe save itself,
-and its spring still copiously flows.
+and its spring still copiously flows.</p>
 
-(b) <i>The Sceptical or Pagan objection from
-History.</i>
+<p>(b) <i>The Sceptical or Pagan objection from
+History.</i></p>
 
-I have said that much the most important form
+<p>I have said that much the most important form
 of historical attack upon the Catholic position, the
 most formidable, and to-day the most hardly
 pressed, the most lively and the most universal, is
 the Pagan or purely Sceptical, the definition of
-which I will here repeat.
+which I will here repeat.</p>
 
-It is maintained that the claim of the Catholic
+<p>It is maintained that the claim of the Catholic
 Church to Divine Infallible Authority is baseless,
 because it is manifestly man-made. The process of
-reasoning is as follows:
+reasoning is as follows:</p>
 
-Man is to be discovered in history perpetually
+<p>Man is to be discovered in history perpetually
 making gods, erecting religious themes, constructing
 cosmogonies. It is in his nature thus to project
 himself upon the universe and to take his imaginations
 for realities. His gods are but large reflected
 images of himself; his religious doctrines, from the
 petty myths of a small savage tribe to the majestic
-fabric of Catholicism, are one and all upon the same
+<span class="pagenum" id="Page_98">[Pg 98]</span>fabric of Catholicism, are one and all upon the same
 model. Each is false, for each differs from the rest;
 and all are false, for all are compact of the same stuff
 as the others: a stuff bearing plainly the marks of
@@ -2576,16 +2956,16 @@ the host of practices, the great monastic institutions,
 the pretty small devotions of light and ornament—all
 these are of one material. That material has
 been exhaustively examined and is now historically
-known. A vast mass of evidence has been accumulated
+<span class="pagenum" id="Page_99">[Pg 99]</span>known. A vast mass of evidence has been accumulated
 and continues to accumulate. The more it is
 co-ordinated the more clearly this conclusion
-appears.
+appears.</p>
 
-That is the position we have to meet. That is
+<p>That is the position we have to meet. That is
 the main historical argument against the divine
-origin and authority of the Church of God.
+origin and authority of the Church of God.</p>
 
-Our fundamental answer to such a position is of
+<p>Our fundamental answer to such a position is of
 course not historical at all. It is the answer of
 faith; as though a man should say, “Yes, this stone
 is a stone and there are multitudes of stones, but I
@@ -2602,23 +2982,25 @@ a conclusion coupled with our further judgment
 that somewhere there must be present upon earth
 the visible action of the divine acting in corporate
 fashion through some institution, some society,
-some body.
+some body.</p>
 
-But this main argument does not concern the
+<p><span class="pagenum" id="Page_100">[Pg 100]</span></p>
+
+<p>But this main argument does not concern the
 little essay which you are reading. I am dealing
 only with the value of the historical argument
 against the Faith, as I have put it, I think fairly,
 into the lips of one of our typical, modern, well-read
-opponents.
+opponents.</p>
 
-Now what is our reply?
+<p>Now what is our reply?</p>
 
-Our reply is that the generalisation is hasty and
+<p>Our reply is that the generalisation is hasty and
 inaccurate, and that the more you examine it the
 more you discover upon what a false and superficial
-basis it reposes.
+basis it reposes.</p>
 
-There is not a great number of religions, nor has
+<p>There is not a great number of religions, nor has
 there been in the past a greater number, apparent
 to men of different nations and temperaments, of
 which hotchpotch the Catholic Church is but one.
@@ -2632,7 +3014,7 @@ called the Catholic Church. Its spirit, quality,
 voice, personality is such that the line of cleavage
 does not lie between it and pure scepticism, leaving
 on the one side <i>all</i> religions (including Catholicism)
-and on the other the free uncertain mind; the line
+<span class="pagenum" id="Page_101">[Pg 101]</span>and on the other the free uncertain mind; the line
 of cleavage lies between the Faith upon one side and
 all other human opinions and moods upon the
 other. And this unique character of the Catholic
@@ -2643,9 +3025,9 @@ society has ever claimed. It affirms its Founder to
 have been what no other society claims its founder
 to have been. It functions as no other society has
 functioned: by an unsupported authority, absolute
-in its affirmation.
+in its affirmation.</p>
 
-It may indeed be granted that in pure theory at
+<p>It may indeed be granted that in pure theory at
 least there is an equal alternative to the unique
 thing. One might say that, outside the Catholic
 Church, the human mind can stand quite unattached,
@@ -2654,12 +3036,12 @@ common experience and the deductive power of the
 intelligence. In pure theory there might be a whole
 society of such detached (but also quite unrooted)
 minds with no certitudes, no ethical predicates,
-living upon the void.
+living upon the void.</p>
 
-In practice that is not so. There is not one of
+<p>In practice that is not so. There is not one of
 us that can point to any mind of his acquaintance,
 or to any mind appearing through the pages of a
-book which occupies such a position. All without
+<span class="pagenum" id="Page_102">[Pg 102]</span>book which occupies such a position. All without
 exception betray an ethical theory of some kind,
 that is, doctrines which, though the holder of them
 may refuse to formulate them, appear in his actions.
@@ -2676,25 +3058,25 @@ phenomena; but we do <i>not</i> find in any of the other
 groups, into which men’s attempts at satisfying this
 religious sense may fall, that particular mark in
 which Catholicism is quite different from all the
-rest.
+rest.</p>
 
-Let us turn to the historical evidence on the
+<p>Let us turn to the historical evidence on the
 matter and see how true this is, prefacing that
 examination by the reiterated remark that such
 unique quality does not of itself and unsupported
 by other considerations determine the mind to accept
 the authority of the Faith, but remarking that it
 does provide a presumption stronger than our
-modern world, even its small educated part, is
-generally aware of.
+<span class="pagenum" id="Page_103">[Pg 103]</span>modern world, even its small educated part, is
+generally aware of.</p>
 
-In the first place, is it true that there are a mass
+<p>In the first place, is it true that there are a mass
 of religions bearing for their chief characteristic that
 which is the chief characteristic of the Catholic
 Church—a secure, unfailing and constant affirmation
-of Infallible Authority?
+of Infallible Authority?</p>
 
-No; it is not true. There have been many
+<p>No; it is not true. There have been many
 restricted, some (very few) widespread religious
 systems; to-day there are two in especial—the
 Buddhist, the Mohammedan, occur at once to mind;
@@ -2712,7 +3094,7 @@ Chinese is historically unique. But Islam does not
 come forward with the statement, “I am a society
 of divine foundation possessed of the power to
 reply to question after question upon the only
-things that really matter, to which questions man
+<span class="pagenum" id="Page_104">[Pg 104]</span>things that really matter, to which questions man
 has never yet of himself attained an answer.” It
 says indeed, “This is the way to live; and in this
 way of living we are content. A disturbance of it
@@ -2730,18 +3112,18 @@ and so far from presenting any organisation
 through which its doctrine can be developed as well
 as affirmed, it is specifically repugnant to such
 organisations. In a phrase, Mohammedanism is
-essentially anti-clerical.
+essentially anti-clerical.</p>
 
-If it be true of Mohammedanism (the chief historically
+<p>If it be true of Mohammedanism (the chief historically
 active opponent of the Faith) that it has
 not the peculiar marks which make the Catholic
 Church different from any other society in the
 world, that it has not some major quality by which
 all religions are distinct and which is also the major
-quality of the Catholic Church, that statement is
-still more true of Buddhism.
+<span class="pagenum" id="Page_105">[Pg 105]</span>quality of the Catholic Church, that statement is
+still more true of Buddhism.</p>
 
-Buddhism never pretended to make, and does not
+<p>Buddhism never pretended to make, and does not
 make to-day, an affirmation to be accepted corporately
 by the universal world. It presents a certain
 philosophy—which I cannot but call the philosophy
@@ -2756,16 +3138,16 @@ out heresy and denouncing it, maintaining its
 life triumphantly by insistence upon a personality
 of its own and by a corresponding power of attack
 against whatever would diminish or threaten that
-life.”
+life.”</p>
 
-If we turn from the great systems to the local
+<p>If we turn from the great systems to the local
 worships we find another character, wholly separate
 from that apparent in Catholicism: that they do
 not pretend to certitude; they pretend to no more
 than the satisfaction of emotion and to a corporation
 tradition. They have their myths, but will
 readily accept them as myths or compare them unoffended
-with the myths of others. They have
+<span class="pagenum" id="Page_106">[Pg 106]</span>with the myths of others. They have
 their sanctities: but their sanctities make no pretence
 at all to be universal. There was one, and only
 one, historical phenomenon, which in this point did
@@ -2773,13 +3155,13 @@ compare with the Faith—the phenomenon of the
 Jewish religion; and that is precisely why we Catholics
 call the Jewish religion the forerunner of our
 own and the preparation of the world for its Incarnate
-God.
+God.</p>
 
-But is it not true that there are countless ceremonies
+<p>But is it not true that there are countless ceremonies
 and also major doctrines, comparable to and
-some even nearly identical with those of the Faith?
+some even nearly identical with those of the Faith?</p>
 
-It is; and to that we answer that if there is to be
+<p>It is; and to that we answer that if there is to be
 such a thing as the Faith on earth, it could not but
 be so. If men must worship, they will worship in
 places. If men feel the pull of a religious emotion,
@@ -2792,22 +3174,22 @@ eat and walk upon their feet, each as much as the
 ministers of the false, so surely you will find in a
 true religion, if true religion there be, habits, practices,
 doctrines, which (not all combined, but here
-one, there another) men have groped for or arrived
+<span class="pagenum" id="Page_107">[Pg 107]</span>one, there another) men have groped for or arrived
 at in systems which attempted or adumbrated the
-truth, but did not even claim to be the full truth.
+truth, but did not even claim to be the full truth.</p>
 
-It is not an historical argument against the
+<p>It is not an historical argument against the
 divinity of this one thing that it has the qualities
 which human things must have. Upon the contrary,
-it is an argument in favour of its claim.
+it is an argument in favour of its claim.</p>
 
-That the unique object here displayed, the Catholic
+<p>That the unique object here displayed, the Catholic
 Church, is divine cannot on this account be
 affirmed; but it can be affirmed that if such a unique
 object exist, then it will have these characters
-attaching to it.
+attaching to it.</p>
 
-A man making a survey of what little is known
+<p>A man making a survey of what little is known
 of the old religious experiments and perversions of
 mankind, and being asked, as a pure hypothesis,
 “Suppose a divine society, corporate, distinct,
@@ -2819,9 +3201,11 @@ such a body present by way of appearance, action
 and thought?” could not but answer that it would
 have of necessity present within it not only vital
 truths, but also practices discoverable wherever man
-had groped at or half remembered a revelation.
+had groped at or half remembered a revelation.</p>
 
-This man, with no knowledge of such a society,
+<p><span class="pagenum" id="Page_108">[Pg 108]</span></p>
+
+<p>This man, with no knowledge of such a society,
 but considering what his fellow beings were, what
 the human mind is, what questions it poses, what
 answers it demands, would reply: “In that society
@@ -2843,41 +3227,44 @@ certainly present in their highest form such elements
 as History has also discovered, disjointedly appearing,
 often perverted, often degraded, in the various
 (and ineffective) spiritual experiments or lapses of
-mankind.”
+mankind.”</p>
 
-Then, one might say to such a man, such a general
+<p>Then, one might say to such a man, such a general
 scholar and observer of the unique animal, man,
-at prayer, “Should there conceivably be such a home
+<span class="pagenum" id="Page_109">[Pg 109]</span>at prayer, “Should there conceivably be such a home
 upon the earth, how otherwise would you know
 it?” He could but answer, “Its nature would be
 such that it would satisfy to the full the demands
 of men; it would be unique so as to correspond to
 man himself who is unique on earth, and it would
-grant him fulness and repose.”
+grant him fulness and repose.”</p>
 
-Such and such alone is the Catholic Church. If
-it be not what it claims to be, then all is void.
-
-
+<p>Such and such alone is the Catholic Church. If
+it be not what it claims to be, then all is void.</p>
 
 
-FOOTNOTES:
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+  <h2 class="nobreak" id="FOOTNOTES">
+    FOOTNOTES:
+  </h2>
+</div>
 
-[Footnote 1: The Anglican authority and scholar, Dr. Lightfoot.]
+<div class="footnote"><p><a id="Footnote_1_1" href="#FNanchor_1_1" class="label">[1]</a> The Anglican authority and scholar, Dr. Lightfoot.</p></div>
 
-[Footnote 2: For instance, he says there cannot have been a dragon under
-the Capitol because dragons are only found in Africa!]
+<div class="footnote"><p><a id="Footnote_2_2" href="#FNanchor_2_2" class="label">[2]</a> For instance, he says there cannot have been a dragon under
+the Capitol because dragons are only found in Africa!</p></div>
 
-[Footnote 3: For instance, the absurdity about the tides, and the argument
-from the phases of Venus.]
+<div class="footnote"><p><a id="Footnote_3_3" href="#FNanchor_3_3" class="label">[3]</a> For instance, the absurdity about the tides, and the argument
+from the phases of Venus.</p></div>
 
-[Footnote 4: “Educated” Europe meant a far larger body in Catholic times
+<div class="footnote"><p><a id="Footnote_4_4" href="#FNanchor_4_4" class="label">[4]</a> “Educated” Europe meant a far larger body in Catholic times
 than it does now. Universities were then popular institutions and
-their attendance was from every class.]
+their attendance was from every class.</p></div>
 
-[Footnote 5: Taking the date of Pentecost as A. D. 29.]
+<div class="footnote"><p><a id="Footnote_5_5" href="#FNanchor_5_5" class="label">[5]</a> Taking the date of Pentecost as A. D. 29.</p></div>
 
-[Footnote 6: Thus, a man who says, “While rejecting all dogmas and creed
+<div class="footnote"><p><a id="Footnote_6_6" href="#FNanchor_6_6" class="label">[6]</a> Thus, a man who says, “While rejecting all dogmas and creed
 I revere the vaguer part of the traditional moral teaching of Jesus”
 is essentially a Protestant, not a sceptic, or Pagan: for such do not
 revere any part of our morals. Protestant also, not Pagan, is the
@@ -2886,13 +3273,15 @@ freed from all later stories of the marvellous and all the sophistries
 of Theology, which “authentic teaching” he picks out of the heap
 by his own infallibility. For the true sceptic or Pagan has no more
 use for the “authentic” fragments than for all the rest. He is
-equally indifferent to the whole.]
+equally indifferent to the whole.</p></div>
 
-[Footnote 7: Heresy = Αιρεσις—“Picking and choosing.”]
+<div class="footnote"><p><a id="Footnote_7_7" href="#FNanchor_7_7" class="label">[7]</a> Heresy = Αιρεσις—“Picking and choosing.”</p></div>
 
-[Footnote 8: Thus we say of a man of twenty-five that he “changes” into
+<div class="footnote"><p><a id="Footnote_8_8" href="#FNanchor_8_8" class="label">[8]</a> Thus we say of a man of twenty-five that he “changes” into
 the man of forty. We also say of a man gone mad that he has
 “changed.” But the word “change” has two very different meanings
 in the two cases. In the one case it is change within the framework,
 of unity, of one character and personality. In the other it
-is the change <i>against</i> that unity, a rupture of it.]
+is the change <i>against</i> that unity, a rupture of it.</p></div>
+</body>
+</html>

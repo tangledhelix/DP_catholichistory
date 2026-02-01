@@ -271,24 +271,24 @@ References: ([p1347865](https://www.pgdp.net/phpBB3/viewtopic.php?p=1347865#p134
   * Since we treat a long dash as two em-dashes, this takes care of both.
 
 ### Generate the HTML
-* [ ] It is preferable for the source line-breaks to match the book; however HTML poetry markup won't work unless `/P..P/` sections have been rewrapped. If the book has much poetry, rewrap it all; else select and rewrap poetry sections individually.
+* [x] It is preferable for the source line-breaks to match the book; however HTML poetry markup won't work unless `/P..P/` sections have been rewrapped. If the book has much poetry, rewrap it all; else select and rewrap poetry sections individually.
   * Don't remove the rewrap markers. These are needed for generation of proper HTML.
-* [ ] Search for `^/[*$pcrflxi]` (regex, no match-case) and make any desired [rewrap marker](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers) changes before HTML generation
-* [ ] TODO: Figure out how to do `chap_fn` for Footnotes, i.e. `1_1, 1_2, ... 2_1, 2_2, ...` rather than a single numbered list?
-* [ ] TODO: Footnotes need to move to landing zones before HTML generation?
-* [ ] Open `HTML → HTML Generator`.
+* [x] Search for `^/[*$pcrflxi]` (regex, no match-case) and make any desired [rewrap marker](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers) changes before HTML generation
+* [x] TODO: Figure out how to do `chap_fn` for Footnotes, i.e. `1_1, 1_2, ... 2_1, 2_2, ...` rather than a single numbered list?
+* [x] TODO: Footnotes need to move to landing zones before HTML generation?
+* [x] Open `HTML → HTML Generator`.
   * Correct the Title if not auto-detected properly.
   * Set options as desired.
   * Use the `Auto-generate HTML` button.
-* [ ] Save the file and open it in a browser.
-* [ ] Scroll through looking for systematic errors. (Title pages, tables, etc. will look terrible; no matter). If automatic conversion messed up, start this step over with a reset file.
+* [x] Save the file and open it in a browser.
+* [x] Scroll through looking for systematic errors. (Title pages, tables, etc. will look terrible; no matter). If automatic conversion messed up, start this step over with a reset file.
 * [ ] Page through the book looking for text that was not handled well by automatic HTML generation, in particular:
   * [Title pages](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/DP_HTML_Best_Practices/Case_Studies/Title_Pages).
   * [Tables and Tables of Contents](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/DP_HTML_Best_Practices/Case_Studies/Tables). The `Auto Table` button can help format tables.
     * A book with wide tables that don't render well may benefit from the page numbers moving to the left margin. This is easy to do, just change `left` under the `.pagenum` class to something like `2%` or `1.5%`. I used `1.5%` for `presidents`.
   * [Indexes](https://www.pgdp.net/wiki/Indexes) - can use Guiguts `/i ... i/` feature
-    * [ ] Sanity-check index for links, improper line breaks, etc.
-    * [ ] Review index for "see X" entries and link any of those manually
+    * [x] Sanity-check index for links, improper line breaks, etc.
+    * [x] Review index for "see X" entries and link any of those manually
   * Illustrations.
 * [ ] Use `HTML → HTML Markup` to make improvements. Use regex replacements to make systematic changes.
   * Where you see a problem, make a correction in Guiguts, save the file, and click the "reload" button in the web browser.
