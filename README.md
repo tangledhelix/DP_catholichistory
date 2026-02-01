@@ -14,8 +14,8 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
-* [ ] review book structure (see notes below) for any h3 needed
-* [ ] 027: complex table
+* [x] review book structure (see notes below) for any h3 needed
+* [x] 027: complex table
 * [x] 070: footnote using Greek transliteration; change to utf8
 * [x] 096: question about `nor here` vs `nor there` - review in TIA scans
 
