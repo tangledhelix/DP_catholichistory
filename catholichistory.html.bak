@@ -89,7 +89,6 @@ li.isub4 {
 table {
     margin-left: auto;
     margin-right: auto;
-    overflow-x: auto;
     width: 47em; max-width: 47em; /* only one table this project */
 }
 table.autotable    { border-collapse: collapse; }
