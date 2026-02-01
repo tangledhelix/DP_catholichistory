@@ -206,10 +206,10 @@ We now proceed to create a Plain Text Version of the book.
 * [x] Try this regex to validate that all border characters were replace with box drawing `[=+|-]`
 
 ### Rewrap and Clear Rewrap Markers
-* [ ] Search for `^/[*$pcrflxi]` (regex, no match-case) and make any desired [rewrap marker](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers) changes before wrapping
-* [ ] Save the file if any unsaved changes.
-* [ ] `Tools → Rewrap All`.
-* [ ] Page through entire text, looking for improper indentation. If found, re-open, clicking NO when asked if you want to save the edits. Find and fix broken rewrap markups. Repeat `Tools → Rewrap All`.
+* [x] Search for `^/[*$pcrflxi]` (regex, no match-case) and make any desired [rewrap marker](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers) changes before wrapping
+* [x] Save the file if any unsaved changes.
+* [x] `Tools → Rewrap All`.
+* [x] Page through entire text, looking for improper indentation. If found, re-open, clicking NO when asked if you want to save the edits. Find and fix broken rewrap markups. Repeat `Tools → Rewrap All`.
 * [ ] Search `  [Footnote` (no regex; 2 leading spaces) to find footnotes in blockquotes; move them out of the blockquote.
 * [ ] Under `Tools → Footnote Fixup`, use `Tidy Footnotes`.
 * [ ] `Tools → Clean Up Rewrap Markers`.

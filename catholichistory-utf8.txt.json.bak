@@ -1,6 +1,6 @@
 {
-  "md5checksum": "e6c17fa60ff391dfea6e281140807676",
-  "insertpos": "5.0",
+  "md5checksum": "24fea4194a6dc08c206589cb80912f59",
+  "insertpos": "18.0",
   "insertpospeer": "2889.71",
   "pagedetails": {
     "001": {
@@ -70,13 +70,13 @@
       "label": "Pg 11"
     },
     "012": {
-      "index": "238.0",
+      "index": "237.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 12"
     },
     "013": {
-      "index": "238.0",
+      "index": "237.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 13"
