@@ -2,13 +2,11 @@
 
 
 
-/X
                            THE CALVERT SERIES
                     HILAIRE BELLOC, _General Editor_
 
 
                     THE CATHOLIC CHURCH AND HISTORY
-X/
 
 
 
@@ -18,18 +16,15 @@ X/
                     HILAIRE BELLOC, _General Editor_
 
 
-/X
     _Belloc_: THE CATHOLIC CHURCH AND HISTORY
     _Chesterton_: THE CATHOLIC CHURCH AND CONVERSION
     _McNabb_: THE CATHOLIC CHURCH AND PHILOSOPHY
     _Ward_: THE CATHOLIC CHURCH AND THE APPEAL TO REASON
     _Windle_: THE CATHOLIC CHURCH AND ITS REACTIONS WITH SCIENCE
-X/
 
 
 
 
-/X
                     THE CATHOLIC CHURCH AND HISTORY
 
                                    BY
@@ -39,12 +34,10 @@ X/
                          THE MACMILLAN COMPANY
                                   1927
                          _All Rights Reserved_
-X/
 
 
 
 
-/X
   Nihil Obstat
          ARTHUR J. SCANLAN, S. T. D.
                      Censor Librorum.
@@ -67,7 +60,6 @@ X/
 
               _Printed in the United States of America by_
                  THE FERRIS PRINTING COMPANY, NEW YORK.
-X/
 
 
 
@@ -504,7 +496,6 @@ the least and going on to the greatest.
 (a) _That the Church has been historically wrong upon a number of
 facts: a Divine Authority would not go wrong in this fashion._
 
-/X
                     ⎧                                             ⎧ (a) The Catholic Church
                     ⎪                                             ⎪ has taught things later
                     ⎪                                             ⎪ proved erroneous--which
@@ -534,7 +525,6 @@ facts: a Divine Authority would not go wrong in this fashion._
                     ⎪                                             ⎪ historically proved to be
                     ⎪                                             ⎪ _wholly_ man-made in _all_
                     ⎩                                             ⎩ its structure.
-X/
 
 We begin by defining what we mean by the words “the Church,” or that
 body of pronouncement by the Church which we call “the Faith.”
