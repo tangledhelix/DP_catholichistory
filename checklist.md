@@ -440,7 +440,7 @@ Perform these validation steps before submitting your book. Validation is also h
 * [x] Use `HTML → HTML Link Checker`. Fix any reported problems.
 
 ### Compare text and HTML
-* [ ] Compare files using [ppcomp](https://www.pgdp.net/ppwb/index.php) and make any adjustments needed.
+* [x] Compare files using [ppcomp](https://www.pgdp.net/ppwb/index.php) and make any adjustments needed.
   * Suppress word join (NoBreak) because GG2 uses them for footnotes
 
 ### Review HTML
