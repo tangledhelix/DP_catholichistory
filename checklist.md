@@ -422,12 +422,12 @@ An example entry might look like this. Use the book's page numbers, not PNG numb
 ### Validate HTML and CSS
 Perform these validation steps before submitting your book. Validation is also helpful while customizing the HTML and CSS above.
 
-* [ ] Confirm that the `<title>` tag matches the format specified by the [Post-Processing FAQ](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_FAQ#HTML_title).
+* [x] Confirm that the `<title>` tag matches the format specified by the [Post-Processing FAQ](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_FAQ#HTML_title).
   * `<title>Alice's Adventures in Wonderland | Project Gutenberg</title>`
   * Sentence case isn't required here (but it is on the upload form)
-* [ ] Use `HTML → HTML5 Validator`. Fix any reported problems.
-* [ ] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
-* [ ] Use `HTML → CSS Validator`. Fix any reported problems.
+* [x] Use `HTML → HTML5 Validator`. Fix any reported problems.
+* [x] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
+* [x] Use `HTML → CSS Validator`. Fix any reported problems.
   * Validate as CSS 2.1
   * CSS3 is acceptable if current status is `REC` on [this page](https://www.w3.org/Style/CSS/current-work)
     * Look up the CSS on MDN to figure out which module it comes from; then check that module's status
@@ -436,8 +436,8 @@ Perform these validation steps before submitting your book. Validation is also h
       * `display: flex` is acceptable but `flex:` is not permitted!
       * `justify-content` may only be `center` and no other value
     * `speak-as: spell-out` if a screen reader should spell out an acronym rather than read as a word
-    * [ ] if uploading CSS3, leave a note for WWer about it.
-* [ ] Use `HTML → HTML Link Checker`. Fix any reported problems.
+    * [x] if uploading CSS3, leave a note for WWer about it.
+* [x] Use `HTML → HTML Link Checker`. Fix any reported problems.
 
 ### Compare text and HTML
 * [ ] Compare files using [ppcomp](https://www.pgdp.net/ppwb/index.php) and make any adjustments needed.
