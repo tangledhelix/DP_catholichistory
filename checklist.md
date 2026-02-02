@@ -388,10 +388,10 @@ For each image:
 * [x] If fabricating your own cover, add the TN as noted in [Easy_Epub/Cover](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Cover).
 
 ### Check "things to revisit"
-* [ ] Check revisit list for anything left for the HTML version
+* [x] Check revisit list for anything left for the HTML version
 
 ### Add TN
-* [ ] Add transcriber's notes, example follows.
+* [x] Add transcriber's notes, example follows.
 
 ```html
 <div class="transnote">
@@ -417,7 +417,7 @@ An example entry might look like this. Use the book's page numbers, not PNG numb
 </ul>
 ```
 
-* [ ] Make sure the TN has no straight-quotes `'"` and instead uses curly quotes `“”‘’`
+* [x] Make sure the TN has no straight-quotes `'"` and instead uses curly quotes `“”‘’`
 
 ### Validate HTML and CSS
 Perform these validation steps before submitting your book. Validation is also helpful while customizing the HTML and CSS above.
