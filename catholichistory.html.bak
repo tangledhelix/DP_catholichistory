@@ -69,7 +69,7 @@ table.autotable th { padding: 0.75em 0.25em; }
 .lr-brace4 { height: 12.5em; max-height: 14em; width: 1em; }
 
 .pagenum { /* uncomment the next line for invisible page numbers */
-    /*  visibility: hidden;  */
+    visibility: hidden;
     position: absolute;
     left: 1.5%; /* wide table; move to left side */
     font-size: small;
@@ -115,14 +115,6 @@ img {
     text-decoration:
     none;
 }
-
-/* Poetry */
-/* uncomment the next line for centered poetry */
-/* .poetry-container {display: flex; justify-content: center;} */
-.poetry-container {text-align: center;}
-.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
-.poetry .stanza   {margin: 1em auto;}
-.poetry .verse    {text-indent: -3em; padding-left: 3em;}
 
 /* Transcriber's notes */
 .transnote {background-color: #E6E6FA;
@@ -174,9 +166,6 @@ blockquote {
 
 /* don't wrap; better than invisible word joiner char? */
 .nowrap { white-space: nowrap; }
-
-/* remove italic styling, e.g. on a <cite> */
-.nonitalic { font-style: normal; }
 
 /* hanging indent */
 .hanging2 {
@@ -963,7 +952,11 @@ man-made in <em>all</em> its structure.
 </table>
 </div>
 
-<p>(a) <i>That the Church has been historically
+<p class="center">
+<i>(Note: the above table can be scrolled horizontally.)</i>
+</p>
+
+<p class="p2">(a) <i>That the Church has been historically
 wrong upon a number of facts: a Divine Authority
 would not go wrong in this fashion.</i></p>
 

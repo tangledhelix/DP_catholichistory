@@ -120,11 +120,11 @@ p. 96: changed “here” to “there” (neither here nor there)
 ### HTML file review ###
 The iPhone/iPad simulators can't use `file://` URLs. Start a local web server with `python3 -m http.server` in the project directory and going to `localhost:8000` in Safari on the device. 
 
-* [ ] Safari
-* [ ] Firefox
-* [ ] Chrome
-* [ ] iPhone simulator
-* [ ] iPad simulator
+* [x] Safari
+* [x] Firefox
+* [x] Chrome
+* [x] iPhone simulator
+* [x] iPad simulator
 
 ### Ebook review ###
 
