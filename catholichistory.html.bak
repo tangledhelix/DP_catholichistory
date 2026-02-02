@@ -177,8 +177,17 @@ blockquote {
 </head>
 <body>
 
+<div class="transnote">
+<p class="center"><strong>Transcriber’s Note</strong></p>
+<p>
+This book contains a wide, complex table that may not display
+well on some e-reader devices.
+</p>
+</div>
 
 <p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
+
+<div class="chapter"></div>
 
 <p class="center p2">THE CALVERT SERIES<br>
 <span class="smcap">Hilaire Belloc</span>, <i>General Editor</i></p>
@@ -445,7 +454,7 @@ civilisation.—<i>The Editor.</i></p>
 
 <hr class="chap x-ebookmaker-drop">
 <div class="chapter">
-<p class="center fm-l">
+<p class="center p4 fm-l">
 THE CATHOLIC CHURCH AND HISTORY</p>
 </div>
 
@@ -453,7 +462,7 @@ THE CATHOLIC CHURCH AND HISTORY</p>
 
 <hr class="chap x-ebookmaker-drop">
 <div class="chapter">
-<p class="center fm-l">
+<p class="center p4 fm-l">
 THE CATHOLIC CHURCH AND HISTORY</p>
 
   <h2 class="nobreak" id="I">
@@ -862,11 +871,6 @@ greatest.</p>
   </h2>
 </div>
 
-
-<h3 id="I_THE_MINOR_OR_MORAL_ARGUMENT">
-(I) <span class="smcap">The Minor or Moral Argument</span>
-</h3>
-
 <p><span class="pagenum" id="Page_27">[Pg 27]</span></p>
 
 <div style="overflow-x:auto;">
@@ -952,9 +956,13 @@ man-made in <em>all</em> its structure.
 </table>
 </div>
 
-<p class="center">
-<i>(Note: the above table can be scrolled horizontally.)</i>
+<p class="center x-ebookmaker-drop">
+<i>(Note: the above diagram can be scrolled horizontally.)</i>
 </p>
+
+<h3 id="I_THE_MINOR_OR_MORAL_ARGUMENT">
+(I) <span class="smcap">The Minor or Moral Argument</span>
+</h3>
 
 <p class="p2">(a) <i>That the Church has been historically
 wrong upon a number of facts: a Divine Authority

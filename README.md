@@ -128,4 +128,31 @@ The iPhone/iPad simulators can't use `file://` URLs. Start a local web server wi
 
 ### Ebook review ###
 
+* Surprisingly, the wide table is scrollable in ADE
+  * Although the brace height sizing isn't quite as good as in browsers.
+  * [ ] should I leave the "scroll" notice in the EPUB??
+* The table renders nicely (but small) in Apple Books Mac.
+  * Clicking on it brings it to full size and it's quite readable.
+  * No opportunity given to scroll, on Mac at least.
+* Kindle (previewer, even as tablet) does a very bad job with the table.
+  * Re-try without overflow-x? Seems about the same.
+  * Kindle zoom, usually a godsend for tables, does badly here
+  * It doesn't seem to honor the height sizing of the braces...
+  * Nor the width for the table cells.
+  * "set up and electrotyped" paragraph not centered
+* Calibre does fine with the book overall
+  * But the table is clipped off screen. No ability to scroll.
+  * Without the overflow-x:auto it's worse; it overlaps text on the next page turn
+* Kobo: the iron cross symbol for the imprimatur is not rendered
+  * "set up and electrotyped" paragraph not centered
+  * Kobo somehow does even worse on the table. It only renders part of it, but also shows a scrollbar... but you can't *use* the scrollbar!
+  * Renders the Greek word, although it renders as if it has letter-spacing active.
+* Apple Books on iPhone does render "electrotyped" paragraph as centered
+  * It does OK with the table - you can click it to get a full view that is zoomable with pinch. However, it doesn't size the braces right, they are rendered presumably at their native resolution.
+* Kindle on iPhone shows the "electrotyped" paragraph as left margin
+  * Renders the table accurately, and you can click in and zoom, but the rendering leaves a lot to be desired, including that the braces are not rendered at the correct sizes.
+* Google Play Books may take the cake. It seems when you reach the table it just starts showing a "loading" spinner. You can page backward, to get back into the book, but then it just won't go past there?! Wow.
+  * [ ] How to deal with this? Is it due to overflow-x or something? Maybe put the overflow-x in a class that can be dropped for ebookmaker?
+  * Seems that's not it; I took the overflow-x bit out and it still fails. Wow!
+
 ### Smooth Reading ###
