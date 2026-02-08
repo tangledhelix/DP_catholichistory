@@ -113,6 +113,8 @@ p. 48: deleted duplicate word “the” (condemned by authority of the Catholic 
 
 p. 71: changed “eraliest” to “earliest” (the earliest origins of the Church)
 
+p. 83: changed “men” to “man” (first the teacher is a revered man)
+
 p. 96: changed “cay” to “may” (what we may say with regard to)
 
 p. 96: changed “here” to “there” (neither here nor there)
@@ -156,3 +158,16 @@ The iPhone/iPad simulators can't use `file://` URLs. Start a local web server wi
   * Seems that's not it; I took the overflow-x bit out and it still fails. Wow!
 
 ### Smooth Reading ###
+
+smoothread_01.txt:
+
+```
+In the Protestant thesis of the mid-Victorian
+day the corruption began about the end of the second century. St. Paul
+was accepted, but already there was trouble beginning, as revealed in
+the authentic epistles of St. Ignatius; and manifestly things were
+becoming Catholic (and therefore corrupt) by the time of the African
+Martyre[**Martyrs?], and were hopeless by the time of the Thirty Tyrants.
+```
+
+This seems to be an archaic, but valid, spelling, and the kind of thing Belloc was known to do. Leaving as-is.
