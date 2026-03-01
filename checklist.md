@@ -489,10 +489,7 @@ e.g. for scrolling, use Shift-Option instead.
 * [x] Optional: Add epub, epub3, renamed-kepub, converted-kepub to Dropbox for Kobo
 
 ### Ebook review
-<details>
-<summary>
 Don't necessarily have to do *all* of these, but these are what I have.
-</summary>
 
 * [x] Review Ebook ToC in at least one e-reader, for structure & content
   * Can try using `title=` attr if a header title has footnote marker etc.
@@ -507,11 +504,9 @@ Don't necessarily have to do *all* of these, but these are what I have.
 * [x] Tablet
   * [x] Kindle (Android)
   * [x] Google Play Books - Android (Dropbox)
-* [ ] E-ink
+* [x] E-ink
   * [x] Kobo Libra Colour
-  * [ ] Kindle Colorsoft
-
-</details>
+  * [x] Kindle Colorsoft
 
 ## Smooth Reading
 
@@ -526,12 +521,12 @@ Submit for a decent length of time, up to the maximum. Check what's in `ebooks/`
 * [x] Go to [project page](https://www.pgdp.net/c/project.php?id=projectID623ad113028e7), select SR time period, upload `catholichistory-sr.zip`
 * [x] Subscribe to “user uploads a SR report” item
 * [x] Update my Trello project board with due date, set card to SR status
-* [ ] If time permits, smooth read it myself as well
+* [x] If time permits, smooth read it myself as well
 
 ### Process SR feedback
-* [ ] After SR is finished, processed SR feedback into project.
-* [ ] Add **anonymized** files to git, e.g. `catholichistory-smoothread01.txt`
-* [ ] Thank your smooth readers with a PM!
+* [x] After SR is finished, processed SR feedback into project.
+* [x] Add **anonymized** files to git, e.g. `catholichistory-smoothread01.txt`
+* [x] Thank your smooth readers with a PM!
 * [ ] If there were changes from the SR round, re-do final checks from above (validators etc)
 
 ## Upload the Finished Project
