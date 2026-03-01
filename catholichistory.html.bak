@@ -246,13 +246,13 @@ AND HISTORY</h1>
 
 <div class="chapter"></div>
 <p class="noindent">
-Nihil Obstat<br>
-<span class="smcap in3em">Arthur J. Scanlan</span>, S. T. D.<br>
-<span class="in6em">Censor Librorum.</span>
+<span lang="la">Nihil Obstat</span><br>
+<span class="smcap in3em">Arthur J. Scanlan</span>, <abbr class="spell">S. T. D.</abbr><br>
+<span class="in6em" lang="la">Censor Librorum.</span>
 </p>
 
 <p class="noindent">
-Imprimatur<br>
+<span lang="la">Imprimatur</span><br>
 <span class="smcap in3em">Patrick Cardinal Hayes</span><br>
 <span class="in6em">✠ Archbishop, New York.</span>
 </p>
@@ -468,7 +468,7 @@ THE CATHOLIC CHURCH AND HISTORY</p>
 THE CATHOLIC CHURCH AND HISTORY</p>
 
   <h2 class="nobreak" id="I">
-    I
+    <abbr title="1">I</abbr>
   </h2>
 </div>
 
@@ -562,7 +562,7 @@ of the objection from History.</p>
 <hr class="chap x-ebookmaker-drop">
 <div class="chapter">
   <h2 class="nobreak" id="II">
-    II
+    <abbr title="2">II</abbr>
   </h2>
 </div>
 
@@ -702,7 +702,7 @@ school.”)</p>
 <hr class="chap x-ebookmaker-drop">
 <div class="chapter">
   <h2 class="nobreak" id="III">
-    III
+    <abbr title="3">III</abbr>
   </h2>
 </div>
 
@@ -766,7 +766,7 @@ Next I find, and much more cogent, a major argument,
 which is directly concerned with the intellectual
 facilities of man.</p>
 
-<p>(I) The minor, or moral argument, as I have
+<p>(<abbr title="1">I</abbr>) The minor, or moral argument, as I have
 called it, is directed against the character of the
 Church, and attempts to show from History that
 her character is not consonant with her claims. It
@@ -799,7 +799,7 @@ organisation is mechanical and is of death: inspiration,
 which is of life, remains free, at large, untrammelled
 by rule.</p>
 
-<p>(II) What I have called the major, intellectual
+<p>(<abbr title="2">II</abbr>) What I have called the major, intellectual
 argument, which is much the more serious in all
 our debate, stands thus:</p>
 
@@ -869,7 +869,7 @@ greatest.</p>
 <hr class="chap x-ebookmaker-drop">
 <div class="chapter">
   <h2 class="nobreak" id="IV">
-    IV
+    <abbr title="4">IV</abbr>
   </h2>
 </div>
 
@@ -963,7 +963,7 @@ man-made in <em>all</em> its structure.
 </p>
 
 <h3 id="I_THE_MINOR_OR_MORAL_ARGUMENT">
-(I) <span class="smcap">The Minor or Moral Argument</span>
+(<abbr title="1">I</abbr>) <span class="smcap">The Minor or Moral Argument</span>
 </h3>
 
 <p class="p2">(a) <i>That the Church has been historically
@@ -2750,10 +2750,10 @@ they reach the purely symbolic or nominal situation
 in which they are to-day, when the king no longer
 governs at all but is the neutral chief of society. I
 myself should put it as early as the reign of
-Edward VI, and I should say it had become marked
+Edward <abbr title="the Sixth">VI</abbr>, and I should say it had become marked
 under the elder Cecil at the beginning of Elizabeth’s
 <span class="pagenum" id="Page_94">[Pg 94]</span>reign. It is more usual to say that the great
-change came under Charles I, and certainly it was
+change came under Charles <abbr title="the First">I</abbr>, and certainly it was
 clinched by the civil wars. There are even perhaps
 some who maintain that monarchy was still
 in the main more powerful than any other political
@@ -2769,8 +2769,8 @@ the kind. You can put within the limits of a lifetime,
 and not a very long lifetime, the transformation
 and decline of the Roman Empire during the
 third century. You can see clearly that feudalism
-was a living social system under Henry III of England
-and even under Edward I, but that it was no
+was a living social system under Henry <abbr title="the Third">III</abbr> of England
+and even under Edward <abbr title="the First">I</abbr>, but that it was no
 longer the spiritual motive of society after the Black
 Death. You may take any process you like
 throughout History, and you will find this to be
@@ -3203,7 +3203,7 @@ by his own infallibility. For the true sceptic or Pagan has no more
 use for the “authentic” fragments than for all the rest. He is
 equally indifferent to the whole.</p></div>
 
-<div class="footnote"><p><a id="Footnote_7_7" href="#FNanchor_7_7" class="label">[7]</a> Heresy = Αιρεσις—“Picking and choosing.”</p></div>
+<div class="footnote"><p><a id="Footnote_7_7" href="#FNanchor_7_7" class="label">[7]</a> Heresy = <span lang="grc">Αιρεσις</span>—“Picking and choosing.”</p></div>
 
 <div class="footnote"><p><a id="Footnote_8_8" href="#FNanchor_8_8" class="label">[8]</a> Thus we say of a man of twenty-five that he “changes” into
 the man of forty. We also say of a man gone mad that he has
@@ -3228,7 +3228,7 @@ retained.
 
 <li><abbr title="page">p.</abbr> 71: changed “eraliest” to “earliest” (<a href="#TN3">the earliest origins of the Church</a>)</li>
 
-<li><abbr title="page">p.</abbr> 83: changed “men” to “man” (<a href="#TN6">first the teacher is a revered man</a>)
+<li><abbr title="page">p.</abbr> 83: changed “men” to “man” (<a href="#TN6">first the teacher is a revered man</a>)</li>
 
 <li><abbr title="page">p.</abbr> 96: changed “cay” to “may” (<a href="#TN4">what we may say with regard to</a>)</li>
 
