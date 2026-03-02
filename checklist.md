@@ -527,7 +527,7 @@ Submit for a decent length of time, up to the maximum. Check what's in `ebooks/`
 * [x] After SR is finished, processed SR feedback into project.
 * [x] Add **anonymized** files to git, e.g. `catholichistory-smoothread01.txt`
 * [x] Thank your smooth readers with a PM!
-* [ ] If there were changes from the SR round, re-do final checks from above (validators etc)
+* [x] If there were changes from the SR round, re-do final checks from above (validators etc)
 
 ## Upload the Finished Project
 

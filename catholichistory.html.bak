@@ -63,10 +63,10 @@ table.autotable    { border-collapse: collapse; }
 table.autotable td,
 table.autotable th { padding: 0.75em 0.25em; }
 
-.lr-brace1 { height: 32em; max-height: 30em; width: 1.2em; }
-.lr-brace2 { height: 6.5em; max-height: 6em; width: 1em; }
-.lr-brace3 { height: 19em; max-height: 22em; width: 1em; }
-.lr-brace4 { height: 12.5em; max-height: 14em; width: 1em; }
+.lr-brace1 { height: 32em;   max-height: 32em;   min-height: 32em;   width: 1.2em; }
+.lr-brace2 { height: 6.5em;  max-height: 6.5em;  min-height: 6.5em;  width: 1em; }
+.lr-brace3 { height: 19em;   max-height: 19em;   min-height: 19em;   width: 1em; }
+.lr-brace4 { height: 12.5em; max-height: 12.5em; min-height: 12.5em; width: 1em; }
 
 .pagenum { /* uncomment the next line for invisible page numbers */
     visibility: hidden;
@@ -306,7 +306,7 @@ methods, and in showing that they have no force.</p>
 first dealing with the three moral arguments:
 (1) that the Church has made pronouncements
 which History can prove to be false; (2) that the
-Church, can be proved by History to have used
+Church can be proved by History to have used
 material which she knew to be false; (3) that the
 Church, being proved by history to be not only
 <span class="pagenum" id="Page_6">[Pg 6]</span>organised but increasingly organised from the beginning
